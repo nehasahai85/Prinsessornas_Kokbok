@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <!-- The main title of the book -->
+            <titleStmt>
+                <title>Prinsessornas Kakbok</title>
+                <author><persName><forename>Anders</forename><surname>Lundebeck</surname></persName></author>
+                <author><persName><forename>Sigyn </forename><surname>Reimers</surname></persName></author>
+                <principal>
+                    <persName><forename>Neha</forename><surname>Sharma</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia </surname></persName>
+                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                </principal>
+                <respStmt>
+                    <resp>Digitalisering och tillgängliggörande</resp>
+                    <persName><forename>Neha</forename><surname>Sharma</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                </respStmt>
+                <respStmt> 
+                    <resp>Transkriberad av</resp>
+                    <persName><forename>Neha</forename><surname>Sharma</surname></persName>            
+                </respStmt>
+                <respStmt> 
+                    <resp>Kodad av</resp>
+                    <persName><forename>Neha</forename><surname>Sharma</surname></persName>                        
+                </respStmt>
+                <respStmt>
+                    <resp>Transkribering och kodning validerad av</resp>
+                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>
+                    <persName><forename>Neha</forename><surname>Sharma</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                </authority>
+                <distributor>Högskolan i Borås</distributor>
+                <address>
+                    <addrLine>Allégatan 1</addrLine>
+                    <addrLine>503 32 Borås</addrLine>
+                    <addrLine>Sverige</addrLine>
+                </address>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>Den digitala transkriberingen och XML-kodningen av "Prinsessornas Kakbok" 
+                            är licensierad under en Creative Commons Erkännande 4.0 Internationell-licens (CC BY 4.0).</p>
+                        <p>Originaltexten gavs ut av Husmodern och recepten samlades in av 
+                            Anders Lundebeck och Sigyn Reimers. Denna digitala version har skapats 
+                            för bevarande- och forskningsändamål.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Damtidningen">
+                    <monogr>
+                        <author><persName><forename>Anders</forename><surname>Lundebeck</surname></persName></author>
+                        <author><persName><forename>Sigyn </forename><surname>Reimers</surname></persName></author>
+                        <title>Prinsessornas Kakbok</title>
+                        <imprint>
+                            <publisher>Housemodern</publisher>
+                            <pubPlace>Stockholm</pubPlace>
+                            <date>1960</date>
+                        </imprint>
+                        <extent>72 sidor</extent>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sverige</country>
+                        <settlement>Göteborg</settlement>
+                        <repository>Kvinnsam </repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="Boken">
+                            <supportDesc >
+                                <support>
+                                    <p><material>Papper</material> med en häftad bindning.</p>
+                                    
+                                       </support>
+                                         <extent> 72 sidor
+                                           </extent>
+                                       </supportDesc>
+                                       </objectDesc>
+                                         </physDesc>
+                                     </msDesc>
+                                    </sourceDesc>
+                                   </fileDesc>
+                                 <encodingDesc>
+                                     <projectDesc>
+                                         <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B11V6 vid Högskolan i Borås 
+                                             som genomfördes under vårterminen 2026.
+                                             Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet. </p>
+                                     </projectDesc>
+                                 </encodingDesc> 
+                                  <profileDesc>
+                                      
+                                          <langUsage>
+                                              <language ident="sv">Swedish</language>
+                                          </langUsage>
+                                      </profileDesc>
+                                      
+                                      
+                                      
+                                      
+                                    
+                                
+               
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="1" facs="assets/img/image_1.png"/>
+                        
+            <div type="front-cover">
+                <p rend="cover-title-top">
+                    <figure rend="crown-icon">
+                        <figDesc>En röd krona placerad ovanför titeln.</figDesc>
+                    </figure>
+                    PRINSESSORNAS
+                </p>
+                
+                <figure rend="main-illustration">
+                    <figDesc>
+                        En cirkulär bild föreställande sex prinsessor i en formation 
+                        runt en stor fruktkaka dekorerad med gelé och marsipanrosor.
+                    </figDesc>
+                </figure>
+                
+                <p rend="cover-title-bottom">KAKBOK</p>
+            </div>
+            
+            
+            
+            
+            
+            <!-- <docTitle>
+                <titlePart type="main">PRINSESSORNAS KAKBOK</titlePart>
+            </docTitle>  -->
+            
+            
+            <pb facs="assets/img/image_3.png"/>
+            <div type="front-page">
+                <p rend="front-title-large">Prinsessornas</p>
+                <p rend="front-title-huge">Kakbok</p>
+                <p rend="title-separator"></p>
+                <!--  <hr rend="title-separator"/>  -->
+                
+                <p rend="front-sub-text">UTGIVEN AV</p>
+                <p rend="front-publisher">HUSMODERN</p>
+                <p rend="title-separator"></p>
+               
+                
+                <div rend="front-credits">
+                    <p rend="front-credit-label">RECEPTEN INSAMLADE AV</p>
+                    <p rend="front-name">ANDERS LUNDEBECK</p>
+                    <p rend="front-credit-label">OCH</p>
+                    <p rend="front-name">SIGYN REIMERS</p>
+                </div>
+            </div>
+            
+            
+            <pb n="4" facs="assets/img/image_4.png"/>
+            <div type="front-matter" subtype="credits">
+                <p rend="center-aligned top-margin">Några av recepten är hämtade ur</p>
+                
+                <p rend="center-aligned italic">Prinsessornas kokbok</p>
+                
+                <p rend="center-aligned uppercase-small">
+                    <hi rend="uppercase">Paul Arbin</hi>: Kungliga rätter
+                </p>
+                
+                <p rend="center-aligned uppercase-small">
+                    <hi rend="uppercase">Einar Nerman</hi>: Celebriteter och läckerheter
+                </p>
+                
+                <div rend="bottom-colophon">
+                    <p rend="uppercase-tiny">ÅHLÉN &amp; ÅKERLUNDS TRYCKERIER • STOCKHOLM 1960</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            
+            <pb n="7" facs="assets/img/image_7.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">VICTORIA-KAKA</p>
+                <ab xml:space="preserve">
+500 g smör                4 dl vispad grädde
+500 g socker               rasp av citron eller
+350 g potatismjöl          vanilj
+250 g riven mandel         litet salt
+12 äggulor                 insockrade orange-
+7 äggvitor                 blommor
+                </ab>
+                <p rend="procedure">
+                    Arbeta smöret med äggulorna. Tillsätt småning- <lb/>
+                    om sockret,mandeln och kryddorna, därefter po- <lb/>
+                    tatismjölet och de vispade äggvitorna, sist grädd- <lb/>
+                    skummet. Grädda i en vriden form i lagom värme,<lb/>
+                    bestryk med sockerglasyr. Lägg på lite aprikos-<lb/>
+                    marmelad, när kakan är upplagd och kall och<lb/>
+                    glasera sedan med maraschino. Garnera eventuellt<lb/>
+                    kakan med insockrade orangeblommor. </p>
+            </div>
+            <div type="recipe">
+                <p rend="bold uppercase">KRONPRINSESSAN VICTORIAS TE-TÅRTA</p>
+                <ab xml:space="preserve">
+1½ hg smör               ett knappt hg kande-
+9 ägg                    rade och hackade
+¾ hg socker              apelsinskal
+9 msk grädde             4½ hg mjöl
+litet kanel              2 tsk bakpulver
+                </ab>
+                <p rend="procedure"> 
+                    Rör smöret tills det blir pösigt. Rör sedan i de<lb/>
+                    nio äggulorna en i sänder. Blanda sockret, gräd-<lb/>
+                    den och kanelen i smeten och sist de kanderade<lb/>
+                    apelsinskalen. Rör så i mjölet och bakpulvret. Sme-<lb/>
+                    ten får stå en stund. Rör därefter ner de hårt vis-<lb/>
+                    pade äggvitorna försiktigt. Grädda i något över<lb/>
+                    medelvarm ugn. 
+                    </p>
+            </div>
+            
+           <!-- Page 8 --> 
+            
+            
+            <pb n="8" facs="assets/img/image_8.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">DANSKE KRONPRINSENS KAKA</p>
+                <ab xml:space="preserve">
+2 hg smör                 1 hg mandel
+1½ hg socker              1 hg suckat
+2 ägg                     1 hg syltade apelsin-
+2 äggulor                    skal
+40 g jäst, löst i ljum-   ½ hg korinter
+   men grädde             10 g stött kardemum-
+4 hg vetemjöl                ma
+1 hg russin               20 g stött kanel
+                </ab>
+                <p rend="procedure">
+                    Rör smöret med sockret, äggen och äggulorna.<lb/>
+                    Blanda därefter i jästen, vetemjölet, russinen,<lb/>
+                    mandeln, suckaten, apelsinskalen, korinterna och<lb/>
+                    kryddorna i tur och ordning. Rör degen tjock och<lb/>
+                    arbeta sedan för hand tills den släpper fatet. De-<lb/>
+                    gen får jäsa väl och placeras sedan i smord kop-<lb/>
+                    parform, ställs åter på jäsning, smörjes med smör<lb/>
+                    och strös med socker. Gräddas i mycket varm ugn.
+                </p>
+            </div>
+            <div type="recipe">
+                <p rend="bold uppercase">EKETRÄSNITTAR</p>
+                <ab xml:space="preserve">
+8 hg socker               10 st ägg
+6 hg finhackad man-       8 hg mjöl
+   del
+                </ab>
+                <p rend="procedure">
+                    Blanda alla ingredienser och rulla ut degen i la-<lb/>
+                    gom tjocka längder av en barnarms tjocklek. Pens-<lb/>
+                    la dem med äggula och vatten och grädda ljus-<lb/>
+                    bruna. Skär kakorna på snedden i smala remsor.
+                </p>
+                <p rend="page-number">8</p>
+            </div>
+        <!-- Page 16 -->
+        
+            <pb n="16" facs="assets/img/image_16.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">SKÅNSK GALETTE (tekaka)</p>
+                <ab xml:space="preserve">
+⅓ l gräddmjöl                20 ägg
+550 g vetemjöl               50 g jäst
+100 g smör plus litet        socker och hackad
+   extra till späckning      mandel
+                </ab>
+                <p rend="procedure">
+                    Ljumma mjölken. Smält smöret och häll i det.<lb/>
+                    Blanda i de övriga ingredienserna och arbeta sam-<lb/>
+                    man allt med en sked. Degen får jäsa till sin<lb/>
+                    dubbla storlek. Lägg den på smord plåt och klappa<lb/>
+                    ut den till en tumstjock kaka. När denna jäst<lb/>
+                    något på plåten, späckas den här och där med kalla<lb/>
+                    smörklickar. Strö över ett tjockt lager socker och<lb/>
+                    hackad mandel. Grädda kakan, skär den i fyrkan-<lb/>
+                    ter och servera den varm.
+                </p>
+            </div>
+            <div type="recipe">
+                <p rend="bold uppercase">DROTTNING SOPHIAS ENGELSKA CAKES</p>
+                <ab xml:space="preserve">
+4 hg vetemjöl                2 hg smör
+4 hg havremjöl               litet varmt vatten
+                </ab>
+                <p rend="procedure">
+                    Arbeta in mjölet i smöret och tillsätt litet varmt<lb/>
+                    vatten för att få degen stadig. Kavla ut ganska<lb/>
+                    tunt, ta ut kakor med runda eller ovala kakmått och<lb/>
+                    grädda i medelvarm ugn.
+                </p>
+                <p rend="page-number">16</p>
+            </div>
+            
+            <!-- Page 26 -->
+            <pb n="26" facs="assets/img/image_26.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">DROTTNING LOVISAS SANDBAKELSER</p>
+                <ab xml:space="preserve">
+15 äggulor                 200 g sötmandel, ma-
+400 g socker                  len
+350 g potatismjöl          ett par bittermandlar
+400 g smör eller mar-      rivet citronskal
+   garin, smält
+                </ab>
+                <p rend="procedure">
+                    Vispa äggulorna över svag värme med sockret<lb/>
+                    tills massan börjar höja sig. Tillsätt citronskalet.<lb/>
+                    Tillsätt, sedan massan svalnat, potatismjöl, smör<lb/>
+                    samt mandeln. Dela upp degen i små, smorda man-<lb/>
+                    delformar och grädda. Serveras med syltad inge-<lb/>
+                    fära.
+                </p>
+            </div>
+            <div type="recipe">
+                <p rend="bold uppercase">ENKEDROTTNINGENS MARENGER</p>
+                <ab xml:space="preserve">
+10 äggvitor                Till fyllning:
+5 hg florsocker            sylt och grädde,
+5 droppar cedroessens         smaksatt med cedro-
+                              olja eller vanilj
+                </ab>
+                <p rend="procedure">
+                    Vispa äggvitorna till hårt skum. Rör i flor-<lb/>
+                    sockret och cedroessensen. Täck plåten med smör-<lb/>
+                    papper. Forma marängbollar med en sked. Klic-<lb/>
+                    ka ut dem på plåten. Sikta över florsocker. Blås<lb/>
+                    bort det överflödiga. Grädda i mycket svag ugns-<lb/>
+                    värme. Lossa dem från plåten då de fått en ljus-<lb/>
+                    gul färg ovanpå. Något av den inte helt gräddade<lb/>
+                    undersidan urtages. Förvara marängerna torrt.<lb/>
+                    När de sedan skall serveras fyller ni varannan<lb/>
+                    med sylt och varannan med vispgrädde smaksatt<lb/>
+                    med ett par droppar cedroolja eller litet vanilj.
+                </p>
+                <p rend="page-number">26</p>
+            </div>
+            
+            
+            
+          <!-- Page 34 -->  
+            
+            <pb n="34" facs="assets/img/image_34.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">PRINSESSKAKOR</p>
+                <ab xml:space="preserve">
+4 hg smör                 3 msk vaniljsocker
+3 hg vetemjöl               1 liten burk ananas
+1 hg potatismjöl            mandel
+2 msk strösocker
+                </ab>
+                <p rend="procedure">
+                    Arbeta samman alla ingredienserna till en smi-<lb/>
+                    dig deg. Kavla ut den ½ centimeter tjock. Tag ut<lb/>
+                    runda kakor med ett dricksglas. Lägg på finhac-<lb/>
+                    kad ananas. Vik ihop kakorna. Sporra runt om<lb/>
+                    fyllningen, pensla på litet äggvita och doppa kakor-<lb/>
+                    na i finhackad mandel. Grädda dem i varm ugn.
+                </p>
+            </div>
+            <div type="recipe">
+                <p rend="bold uppercase">ALEXANDERTÅRTA</p>
+                <ab xml:space="preserve">
+Mördeg:                   Mandelmassa:
+200 g smör                175 g sötmandel
+4 msk socker              175 g florsocker
+1 litet ägg               2 äggvitor
+225 g mjöl                Garnering:
+Äppelmos:                 ljusrött och ljusgrönt
+6 medelstora äpplen          äppelgelé
+1 msk smör
+½ dl socker
+                </ab>
+                <p rend="procedure">
+                    Mördeg: Tvätta smöret om det är salt. Rör smör<lb/>
+                    och socker tills det blir vitt och pösigt. Tillsätt<lb/>
+                    ägget och det smakämne som önskas. Rör kraftigt.<lb/>
+                    Blanda i mjölet sist och arbeta degen på bakbordet<lb/>
+                    så att den blir jämn. Ställ degen kallt.
+                </p>
+                <p rend="page-number">34</p>
+            </div>
+            
+            
+            
+        <!-- Page 35 -->    
+            <pb n="35" facs="assets/img/image_35.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    Bred ut degen i en stor tårtform med löstagbar<lb/>
+                    ring och tag av ungefär en femtedel av degen.<lb/>
+                    Grädda tårtbotten i medelvarm ugn tills den är<lb/>
+                    genomgräddad och fått färg. Låt den kallna i for-<lb/>
+                    men.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Äppelmos:</hi> Skala äpplena, tag ur kärnhuset och<lb/>
+                    skär frukten i skivor. Lägg skivorna i en eldfast<lb/>
+                    form eller kastrull. Strö socker mellan varven.<lb/>
+                    Lägg klickar av smöret överst och lägg på ett <hi rend="italic">tätt-<lb/>
+                        slutande</hi> lock. Ställ in formen i varm ugn. När äpp-<lb/>
+                    lena mosat sig tas formen ur ugnen. Är moset för<lb/>
+                    löst röres det över värme, så att fuktigheten av-<lb/>
+                    dunstar. Sätt till mer socker om det behövs.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Mandelmassa:</hi> Skålla mandeln, skölj den i kallt<lb/>
+                    vatten innan den skalas, torkas och males två gång-<lb/>
+                    er. Blanda mandeln och florsockret i en stenmortel<lb/>
+                    och stöt med trästöt. Tillsätt efter en stund ägg-<lb/>
+                    vitan, litet i sänder, och stöt åter massan tills den<lb/>
+                    blir seg och smidig och så fast som en riktigt sta-<lb/>
+                    dig deg. Arbeta den därefter med fingrarna på en<lb/>
+                    stenskiva.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Hopläggning av tårtan:</hi><lb/>
+                    Runt kanten ovanför den gräddade tårtbottnen<lb/>
+                    breder ni ut den sparade degen på tårtringen. Bred<lb/>
+                    det fasta, kalla äppelmoset ovanpå. En tredjedel<lb/>
+                    av mandelmassan plattas ut med kniv på ett smör-<lb/>
+                    papper och lägges ovanpå moset, som skall täckas.<lb/>
+                    Lägg resten av mandelmassan i en spritsspruta med<lb/>
+                    liten krusig stjärna. Spritsa massan i sneda rutor<lb/>
+                    över tårtan och en krans runt kanten. Sätt in tår-<lb/>
+                    tan i varm ugn. För att ej få för stark undervär-
+                </p>
+                <p rend="page-number right">35</p>
+            </div>
+            
+            
+            
+         <!-- Page 36 -->   
+            
+            <pb n="36" facs="assets/img/image_36.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    me åt den förut färdiggräddade tårtbottnen, ställ<lb/>
+                    en upp- och nedvänd stekpanna under plåten. Tag<lb/>
+                    ut tårtan och låt den kallna, när mandelmassan<lb/>
+                    fått vacker färg.<lb/>
+                    Fyll rutorna på ytan med olikfärgat äppelgelé.
+                </p>
+            </div>
+            
+            <div type="recipe">
+                <p rend="bold uppercase">DROTTNING MARYS FÖDELSEDAGSKAKA</p>
+                <ab xml:space="preserve">
+8 äggulor                 <hi rend="italic">Fyllning:</hi>
+2 äggvitor                 5 dl vispgrädde
+125 g socker               1½ hg socker
+1 hg mjöl                  4 hg riven eller smält,
+50 g smält smör               osockrad blockcho-
+                              klad
+                </ab>
+                <p rend="procedure">
+                    Vispa äggen med sockret i en skål över hett vat-<lb/>
+                    ten tills blandningen tjocknar. Blanda ner mjölet<lb/>
+                    och det smälta smöret. Häll smeten i två runda<lb/>
+                    smorda och mjölade kakformar. Grädda i medel-<lb/>
+                    varm ugn omkring 30 min.<lb/>
+                    Koka upp grädden med socker och riven choklad<lb/>
+                    i en tjockbottnad kastrull. Ställ krämen att svalna<lb/>
+                    1 timme. Skär de båda kakorna i två bottnar och<lb/>
+                    bred fyllning på varje botten som sedan lägges<lb/>
+                    samman. Bred resten av den nu nästan helt stel-<lb/>
+                    nade krämen över tårtan och på dess sidor.
+                </p>
+            </div>
+            
+            <div type="recipe">
+                <p rend="bold uppercase">DROTTNING LOVISAS TUSENBLADSTÅRTA</p>
+                <ab xml:space="preserve">
+1 sats smördeg              lite socker och stött
+aprikos- eller plom-           vanilj
+   monmarmelad              gröna druvor
+tjock grädde                vinbärssylt
+                </ab>
+                <p rend="page-number">36</p>
+            </div>
+            
+            
+     <!-- Page 37 -->       
+            <pb n="37" facs="assets/img/image_37.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    Kyl smördegen och dela den därefter i mindre<lb/>
+                    bitar. Kavla ut dem så tunt som möjligt. Tag ut<lb/>
+                    runda kakor med 2 dm diameter. Lägg dem<lb/>
+                    på plåt. Picka dem med gaffel och grädda i ugn.<lb/>
+                    Stryk aprikos- eller plommonmarmelad på halva<lb/>
+                    antalet bottnar. Täck de andra med hårdvispad<lb/>
+                    grädde blandad med socker och vanilj. Lägg bott-<lb/>
+                    narna ovanpå varann, varannan med sylt och var-<lb/>
+                    annan med grädde. Spritsa tårtan med vispgräd-<lb/>
+                    de, även på sidorna och garnera med vinbärssylt<lb/>
+                    och gröna druvor.
+                </p>
+            </div>
+            
+            <div type="recipe">
+                <p rend="bold uppercase">NAPOLEONBAKELSER (omkring 10 st.)</p>
+                <ab xml:space="preserve">
+1 sats smördeg              rött vinbärsgelé
+hallonsylt                  ½ sats vattenglasyr
+½ sats vaniljkräm
+                </ab>
+                <p rend="procedure">
+                    Gör en smördeg och kavla ut den till en knappt<lb/>
+                    ½ cm tjock fyrkant ungefär 30 cm bred med så<lb/>
+                    jämna kanter som möjligt. Skär den på längden<lb/>
+                    i tre remsor, vilka alltså blir 10 cm breda. Nagga.<lb/>
+                    Lägg remsorna på rengjord plåt och pensla med<lb/>
+                    kallt vatten, grädda i het ugn. Bred såsfri hallon-<lb/>
+                    sylt på en av kakorna när de kallnat och vanilj-<lb/>
+                    kräm på en annan varefter de tre kakorna lägges<lb/>
+                    ovanpå varandra. Bestryk kakan med vinbärsgelé<lb/>
+                    och glasera tunt. Låt glasyren torka i svag värme.<lb/>
+                    Skär 4 cm breda bitar med vass kniv.
+                </p>
+                
+                <p rend="page-number right">37</p>
+            </div>           
+            
+            <!-- Page 41 -->
+            <pb n="41" facs="assets/img/image_41.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">KRONPRINSESSAN MÄRTHAS TÅRTA</p>
+                <ab xml:space="preserve">
+<hi rend="italic">Tårtan:</hi>                   1 ägg
+5 gulor                    1 msk potatismjöl
+175 g socker               2 msk socker
+3 msk <hi rend="italic">starkt</hi> kallt        <hi rend="italic">Glasyr:</hi>
+   kaffe                   1½ dl florsocker
+75 g malda valnöts-        1½ msk <hi rend="italic">starkt</hi> kaffe
+   kärnor                     eller rom
+5 msk potatismjöl          <hi rend="italic">Garnering:</hi>
+5 vitor                    Mandelmassa: 25 g
+smör och bröd till for-       mandel, 50 g flor-
+   men                        socker, äggvita,
+<hi rend="italic">Kräm:</hi>                      färg — 6 valnöts-
+1½ dl gräddmjöl               kärnor
+½ dl <hi rend="italic">starkt</hi> kaffe
+                </ab>
+                <p rend="procedure">
+                    Rör sockret och gulorna tills massan blir tjock,<lb/>
+                    ljus och porös. Späd emellanåt med litet starkt<lb/>
+                    kallt kaffe, men inte så mycket att smeten blir<lb/>
+                    tunn. Lägg i de malda valnötskärnorna, bred på de<lb/>
+                    till hårt skum slagna vitorna och strö över pota-<lb/>
+                    tismjölet. Rör <hi rend="italic">varsamt</hi> om alltsammans tills sme-<lb/>
+                    ten är jämnt blandad. Ös den då i en väl smord<lb/>
+                    och brödform eller medelstor stekpanna och gräd-<lb/>
+                    da kakan i medelvarm ugn ungefär 20—25 minu-<lb/>
+                    ter. Pröva med sticka. Låt kakan svalna. Stjälp<lb/>
+                    sedan upp den så att den får kallna.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Krämen:</hi> Blanda alla ingredienserna i en ka-<lb/>
+                    strull och vispa över eld. Då blandningen sjuder<lb/>
+                    och tjocknar, så tag den av elden och låt den<lb/>
+                    kallna.
+                </p>
+                
+                <p rend="page-number right">41</p>
+            </div>
+
+<!-- Page 42 -->
+
+            <pb n="42" facs="assets/img/image_42.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    Skär kakan i tre bottnar och bred den tunna,<lb/>
+                    kalla krämen mellan bottnarna. Glasera kakan<lb/>
+                    med kaffeglasyr, som bör vara tjock som en tunn<lb/>
+                    kräm. Om man så vill, kan den ytterligare smak-<lb/>
+                    sättas med rom, som förtar den söta smaken.
+                </p>
+                <p rend="procedure">
+                    Stöt ingredienserna till vanlig mandelmassa. Fär-<lb/>
+                    ga en tredjedel svagt skär med karmin och resten<lb/>
+                    med grön karamellfärg. Kavla ut den skära man-<lb/>
+                    delmassan. Skär till blomblad, och sätt dem mel-<lb/>
+                    lan den fyrdelade valnötskärnan. Kavla ut den grö-<lb/>
+                    na mandelmassan, forma till blad och ordna dem<lb/>
+                    kring »blommorna».
+                </p>
+            </div>
+            
+            <div type="recipe">
+                <p rend="bold uppercase">FRANSKA ASKEN</p>
+                <ab xml:space="preserve">
+mördeg                     socker
+aprikospuré                kanderade violer eller
+tjock grädde                  annan confityr
+                </ab>
+                <p rend="procedure">
+                    Kläd en form i botten och på sidorna med mör-<lb/>
+                    deg. Grädda degen som vanligt, sedan den fått vila.<lb/>
+                    Kavla ut ett stycke mördeg och forma det till lock.<lb/>
+                    Grädda. Fyll mördegsformen med aprikospurén<lb/>
+                    och den väl vispade och sockrade grädden. Lägg<lb/>
+                    grädden mycket högt på formens ena sida, så att<lb/>
+                    mördegslocket kommer att luta och det hela ge<lb/>
+                    intryck av en halvöppen rund dosa. Garnera vid<lb/>
+                    lockets öppning och runt om med kanderade violer<lb/>
+                    eller andra confityrer.
+                </p>
+                
+                <p rend="page-number">42</p>
+            </div>
+            
+            <!-- page 58 -->
+            
+            
+            <pb n="58" facs="assets/img/image_58.png"/>
+            <div type="recipe">
+                <p rend="bold uppercase">KRONPRINSESSAN ASTRIDS TÅRTA</p>
+                <ab xml:space="preserve">
+<hi rend="italic">Sockerkaka:</hi>                  4½ dl ananasspad
+6 ägg                          och gräddmjöl
+210 g strösocker               2 blad gelatin
+55 g potatismjöl               ¼ burk ananas
+55 g vetemjöl                  citronsaft
+<hi rend="italic">Pralin:</hi>                       <hi rend="italic">Maräng:</hi>
+100 g oskållad man-            3 vitor
+   del                         180 g florsocker
+100 g strösocker               <hi rend="italic">Mandelmassa:</hi>
+<hi rend="italic">Kräm:</hi>                       40 g sötmandel
+3 gulor                        60 g florsocker
+2 msk vetemjöl                 äggvita
+2 msk socker                   färg
+                               150 g små vindruvor
+                </ab>
+                <p rend="procedure">
+                    <hi rend="italic">Sockerkaka:</hi> Rör äggulor och socker tills massan<lb/>
+                    blir ljus och porös. Tillsätt då mjölet och pralinen<lb/>
+                    (se nedan) och skär till sist försiktigt ned de till<lb/>
+                    hårt skum slagna vitorna. Häll genast massan i<lb/>
+                    tre lika stora formar och grädda dem i medel-<lb/>
+                    varm ugn. Ni kan också grädda en tårta i sänder.<lb/>
+                    Låt då resten av smeten stå kallt. Pröva kakorna<lb/>
+                    med sticka. Lossa dem från kanten och stjälp upp<lb/>
+                    dem 5—6 minuter efter det de kommit ur ugnen.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Pralin:</hi> Torka mandeln. Skålla den inte. Lägg<lb/>
+                    den tillsammans med sockret i en stekpanna. Rör<lb/>
+                    blandningen med träsked, tills sockret har smält<lb/>
+                    och är ljusbrunt. Häll då genast upp den på smord<lb/>
+                    plåt. Bryt sönder massan då den är fullkomligt
+                </p>
+                
+                <p rend="page-number">58</p>
+            </div>
+            
+            <!-- page 59 -->
+            <pb n="59" facs="assets/img/image_59.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    kall och mal den på mandelkvarn. Blanda den i<lb/>
+                    tårtsmeten, innan ni skär ner äggvitorna.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Kräm:</hi> Häll ägg, socker och mjöl och det förut i<lb/>
+                    kallt vatten blötlagda och uppkramade gelatinet i<lb/>
+                    en kastrull och vispa ihop allt. Tillsätt det hopkok-<lb/>
+                    ta ananasspadet och gräddmjölken. Ställ kastrul-<lb/>
+                    len över elden, vispa blandningen tills krämen sju-<lb/>
+                    der och tjocknar. Ni kan gärna skära ner några<lb/>
+                    små smörklickar i den färdigkokta krämen.
+                </p>
+                <p rend="procedure">
+                    Rör ner ananasen, som förut skurits i små tär-<lb/>
+                    ningar, i krämen då den kallnat. Avsmaka noga.<lb/>
+                    Sätt till citronsaft och möjligen litet mer socker.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Hopläggning:</hi> Skär varje sockerkaka när de är<lb/>
+                    fullständigt kalla, i två eller tre bottnar med en<lb/>
+                    tunn, vass kniv. Hetta gärna först upp kniven över<lb/>
+                    en gaslåga. Lägg ihop bottnarna till en hög tårta<lb/>
+                    med ett lager av krämen mellan varje botten. Detta<lb/>
+                    bör helst göras dagen innan tårtan skall serve-<lb/>
+                    ras. Den blir saftigare då.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Maräng till garnering:</hi> Blanda vitorna och sock-<lb/>
+                    ret i en porslinsskål. Ställ den över kokande vat-<lb/>
+                    ten. Vispa innehållet kraftigt tills marängen är så<lb/>
+                    fast som en tjock sås. Skålen kan då tas ur det<lb/>
+                    varma vattnet. Fortsätt vispningen tills marängen<lb/>
+                    är tjock som en tunn kräm. Bred den över hela<lb/>
+                    tårtan med en kniv, och sätt in tårtan i mycket<lb/>
+                    svag ugnsvärme, så den stelnar på ytan. Garnera<lb/>
+                    med vindruvor och blad av mandelmassan som ni<lb/>
+                    gör på vanligt sätt, och färgar svagt i olika höst-<lb/>
+                    färger.
+                </p>
+                
+                <p rend="page-number right">59</p>
+            </div>
+            
+            <!-- page 60 -->
+            
+            <pb n="60" facs="assets/img/image_60.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    Klipp vindruvorna från stjälken och torka dem.<lb/>
+                    Fäst dem med marängmassa i form av klasar<lb/>
+                    och lägg blad emellan. Färga en liten bit mandel-<lb/>
+                    massa mörkbrun med kakaopulver och rulla ut den<lb/>
+                    i fina smala längder. Lägg dem som stjälkar och<lb/>
+                    revor.
+                </p>
+                <p rend="procedure">
+                    Servera tårtan till efterrätt med ananssås.
+                </p>
+                <ab xml:space="preserve">
+<hi rend="italic">Ananassås:</hi>                  citronsaft
+3 äggulor                      ½ dl hopkokt ananas-
+1½ dl socker                      spad
+1 liten burk ananas            3½ dl tjock grädde
+                </ab>
+                <p rend="procedure">
+                    Rör gulor och socker kraftigt ungefär 20 minu-<lb/>
+                    ter. Slå vitorna till hårt skum och skär varsamt<lb/>
+                    ner dem. Skär ananasen i små jämna tärningar<lb/>
+                    och blanda dem i krämen. Tillsätt citronsaft och<lb/>
+                    ananasspad efter smak. Tillsätt till sist den till<lb/>
+                    hårt skum slagna grädden.
+                </p>
+                <p rend="procedure">
+                    Servera såsen iskall till tårta.
+                </p>
+            </div>
+            
+            <div type="recipe">
+                <p rend="bold uppercase">ARVSTORHERTIGINNAN JOSÉPHINE-CHARLOTTES TÅRTA</p>
+                <ab xml:space="preserve">
+<hi rend="italic">Marängbottnar:</hi>               <hi rend="italic">Smörkräm:</hi>
+5 vitor                        2 vitor
+250 g florsocker               125 g florsocker
+100 g nötter                   250 g osaltat smör
+                               ½—1 l jordgubbar
+                </ab>
+                
+                <p rend="page-number">60</p>
+            </div>
+            
+            <!-- page 61 -->
+            <pb n="61" facs="assets/img/image_61.png"/>
+            <div type="recipe">
+                <p rend="procedure">
+                    Vispa äggvitorna till skum och slå dem ytter-<lb/>
+                    ligare 10 min. Krossa sockret och nötterna, lämp-<lb/>
+                    ligen med en brödkavel, och häll dem försiktigt i<lb/>
+                    den vispade äggvitan. Upphetta nötskalen innan<lb/>
+                    för att få dem att lossna. Lägg dem på en handduk<lb/>
+                    och gnugga lite försiktigt. På så sätt får man<lb/>
+                    bort det mesta av skalen.
+                </p>
+                <p rend="procedure">
+                    Bred ut massan i fyra bottnar på en väl ren-<lb/>
+                    gjord och smord form. Man kan också lägga smör-<lb/>
+                    papper under och ta ut bottnarna efter en stor<lb/>
+                    tallrik. Grädda bottnarna i svag ugnsvärme i om-<lb/>
+                    kring 15 minuter. Aldrig längre än 20 minuter.<lb/>
+                    De får ligga kvar på plåten tills de är alldeles<lb/>
+                    kalla.
+                </p>
+                <p rend="procedure">
+                    <hi rend="italic">Smörkrämen:</hi> Blanda ihop vitorna och florsock-<lb/>
+                    ret i en skål. Ställ skålen i en kastrull över kokan-<lb/>
+                    de vatten. Vispa kraftigt tills massan blir som en<lb/>
+                    tjock sås. Ta skålen ur vattnet och fortsätt vispa<lb/>
+                    tills krämen är nästan kall. Rör ner det osaltade<lb/>
+                    smöret i små klickar.
+                </p>
+                <p rend="procedure">
+                    När krämen är färdig och det är dags att göra<lb/>
+                    i ordning tårtan tillsätter man jordgubbarna i krä-<lb/>
+                    men. Dela dem först i små bitar.
+                </p>
+                <p rend="procedure">
+                    Variera dekoreringen efter smak. Använd an-<lb/>
+                    tingen spritsad smörkräm med hela eller halvera-<lb/>
+                    de jordgubbar eller också jordgubbar och vispad<lb/>
+                    grädde.
+                </p>
+                
+                <p rend="page-number right">61</p>
+            </div>
+            
+            
+            
+            
+            
+            <pb n="68" facs="assets/img/image_backcover.png"/>
+           <div type="back-cover">
+                <p rend="back-title-blue">PRINSESSORNAS KAKBOK</p>
+                
+                <p rend="back-description">
+                    Denna bok innehåller en lång rad av svenska och ut-<lb/>
+                    ländska drottningars och prinsessors bästa kak- och<lb/>
+                    tårtrecept. Här finns både äldre och nyare recept på<lb/>
+                    bakverk som varit och är favoriter på de kungliga<lb/>
+                    slotten.
+                </p>
+                
+                <p rend="back-italic-intro">Prinsessornas kakbok är utgiven av</p>
+                
+                <p rend="back-brand-blue">Husmodern</p>
+                
+                <p rend="back-tagline">— den goda matens tidning —</p>
+                
+                <div rend="back-footer">
+                    <p rend="back-price">PRIS 4:50<lb/><lb/><lb/></p>
+                    
+                    <p rend="back-colophon">AB ÅETÅTRYCK • ÅHLÉN &amp; ÅKERLUND • STOCKHOLM 1960</p>
+                </div>
+            </div>
+            
+            
+            
+            
+        </body>
+    </text>
+</TEI>

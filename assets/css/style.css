@@ -1,0 +1,454 @@
+/* General Layout */
+.body {
+    background-color: #e0e0e0;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 20px;
+  
+}
+
+/* Fix for the Header */
+.header {
+    padding: 40px 20px;
+    background-color: #fdfdfd;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+/* Sticky Navigation Logic */
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style: none; /* Removes the bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Puts menu items in a row */
+    justify-content: center; /* Centers the menu */
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.nav a.active {
+    color: #e91e63; /* Pink accent color */
+    border-bottom: 2px solid #e91e63;
+}
+
+/* Content spacing so it doesn't hide behind the menu */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: left; /* Recipes usually look better left-aligned */
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Layout Styling for index file*/
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.main-image-container img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.header {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.footer {
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #777;
+}
+/* Specific Font Styles */
+.front-sub-text {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+/* Container for the whole page */
+.front-page-layout {
+    text-align: center;
+    padding: 100px 40px; /* Adds the missing top space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+}
+
+/* The Italic Title */
+.front-title-large {
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.front-title-huge {
+    font-size: 4.8em;
+    font-style: italic;
+    margin-top: -15px; /* Pulls the two title words closer together */
+}
+
+/* Horizontal Lines */
+.title-separator {
+    width: 65%; /* Makes lines wider as seen in image_c6a9ee.jpg */
+    border: 0;
+    border-top: 1px solid #999; /* Softer grey line */
+    margin: 40px 0;
+}
+
+/* The Publisher Section */
+.front-publisher {
+    font-size: 1.8em;
+    letter-spacing: 6px; /* Fixes the bunched-up letters */
+    margin-top: 10px;
+}
+
+/* The Credits at the bottom */
+.front-credits {
+    margin-top: 150px; /* Pushes credits to the bottom third of the page */
+}
+
+.front-credit-label {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.front-name {
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page Container */
+.page-wrapper {
+    display: flex;
+    background-color: white;
+    margin: 40px auto;
+    max-width: 1200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    min-height: 800px;
+    margin: 0 auto 40px auto; 
+    min-height: 800px;
+}
+
+/* Image on the LEFT - addressing scholarly standard feedback */
+.image-side {
+    flex: 1;
+    width: 50%; /* Fixed width to prevent distortion */
+    padding: 20px;
+    background-color: #fafafa;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.image-side img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #999;
+}
+
+/* Transcription on the RIGHT */
+.text-side {
+    flex: .8;
+    width: 50%; /* Fixed width to prevent distortion */
+    padding: 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; /* Forces all content to the left */
+}
+
+/* Move ingredients to the left and let text wrap around it */
+.ingredients {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1.3em;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+
+    /* KEY CHANGES TO MOVE TO LEFT */
+    display: block;
+    width: fit-content;  /* Shrinks the grey box to fit the text only */
+    margin-left: 0;      /* Pins it to the left side */
+    margin-right: auto;
+    text-align: left;
+}
+
+/*.procedure {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}*/
+
+.title-part-main {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Ensure the procedure text fills this new narrow width */
+.procedure {
+    width: 100%;           /* It will now respect the 500px limit above */
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.6;
+    font-family: serif;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 0;
+}
+
+/* This clears the float so the next recipe title starts on a new line */
+.recipe-entry {
+    overflow: auto; 
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee; /* Visual separator for recipes */
+}
+ .ingredient-table {
+    width: 100%;
+    margin: 20px 0;
+}
+.ingredient-table td {
+    padding-right: 40px; /* Space between the two columns */
+    vertical-align: top;
+}
+/* Base style for ALL page numbers */
+.page-number {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    font-family: serif;
+    text-align: left; /* Default is left */
+}
+
+/* Specific override only when 'right' is present */
+.page-number.right {
+    text-align: right;
+}
+
+/* Back Cover Styles */
+/* Container for the back cover */
+.back-cover {
+    text-align: center;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 850px; /* Forces the footer to the bottom */
+}
+
+/* The Blue Title */
+.back-title-blue {
+    color: #2c5a94; /* The specific blue from the book */
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+/* The main description paragraph */
+.back-description {
+    max-width: 85%;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: .8em;
+}
+
+/* "Husmodern" Brand Styling */
+.back-brand-blue {
+    color: #2c5a94;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.back-tagline {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 100px;
+}
+
+/* Footer Section (Price and Publisher) */
+.back-footer {
+    margin-top: auto; /* Pushes this div to the very bottom */
+}
+
+.back-price {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;  /* This centers the text */
+    display: block;      /* This ensures the element takes up the full width to allow centering */
+}
+
+.back-colophon {
+    font-size: 0.75em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* --- Front Cover Container --- 
+.front-cover-container {
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 850px; *//* Matches your book height */
+//    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+//}
+
+/* --- Typography --- */
+//.cover-title-top, 
+//.cover-title-bottom {
+//    font-family: "Impact", "Arial Narrow", sans-serif; /* Mimics the tall, condensed font */
+//    font-size: 3.5em;
+//    font-weight: 900;
+//    letter-spacing: -2px;
+//    transform: scaleY(1.5); /* Stretches the font vertically like the original */
+//    margin: 20px 0;
+//    color: #111;
+//}
+
+/* --- The Crown Icon --- */
+.crown-icon {
+    display: block;
+    width: 60px;
+    height: 45px;
+    background-color: #e91e63; /* Pinkish-red crown color */
+    margin: 0 auto 10px auto;
+    /* This creates the 3-point crown shape using a clip-path */
+    clip-path: polygon(0% 100%, 0% 20%, 33% 50%, 50% 0%, 66% 50%, 100% 20%, 100% 100%);
+}
+
+/* --- Illustration Area --- */
+.cover-image-placeholder img {
+    max-width: 90%;
+    height: auto;
+    margin: 40px 0;
+    border-radius: 50%; /* Optional: softens the edges to match the circular vibe */
+}
+
+/* Container styling for the Credits Page */
+.center-aligned {
+    text-align: center;
+    margin: 5px 0;
+    font-family: serif;
+}
+
+.top-margin {
+    margin-top: 150px; /* Positions the text in the upper-middle of the page */
+}
+
+.uppercase-small {
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+.bottom-colophon {
+    margin-top: 300px; /* Pushes the printer info to the bottom of the page */
+    text-align: center;
+}
+
+.uppercase-tiny {
+    font-size: 0.65em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Container must have a set height to allow for "bottom" placement */
+.front-cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 800px; /* Adjust based on your digital page height */
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.cover-title-top {
+    margin-top: 0;
+    font-size: 3em;
+    /* Styles for vertically condensed font */
+    transform: scaleY(1.4);
+}
+
+.main-illustration {
+    margin: 40px 0;
+    flex-grow: 1; /* Allows the image area to take up available middle space */
+}
+
+.cover-title-bottom {
+    /* THIS IS THE KEY: pushes the element to the bottom of the flex container */
+    margin-top: auto; 
+    font-size: 3em;
+    transform: scaleY(1.5);
+    margin-bottom: 20px;
+}
+
+.recipe-title {
+    font-weight: bold;       /* Makes the text bold */
+    text-transform: uppercase; /* Forces all letters to be capital */
+    display: block;          /* Ensures it sits on its own line */
+    margin-top: 20px;        /* Adds space above the title */
+    margin-bottom: 10px;     /* Adds space below the title */
+    font-size: 1.2em;        /* Makes the title slightly larger */
+}
