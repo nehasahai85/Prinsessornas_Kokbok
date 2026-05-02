@@ -444,9 +444,17 @@ h5 {
     margin-bottom: 20px;
 }
 
-.recipe-title {
+.recipe-title-uppercase {
     font-weight: bold;       /* Makes the text bold */
     text-transform: uppercase; /* Forces all letters to be capital */
+    display: block;          /* Ensures it sits on its own line */
+    margin-top: 20px;        /* Adds space above the title */
+    margin-bottom: 10px;     /* Adds space below the title */
+    font-size: 1.2em;        /* Makes the title slightly larger */
+}
+
+.recipe-title {
+    font-weight: bold;       /* Makes the text bold */
     display: block;          /* Ensures it sits on its own line */
     margin-top: 20px;        /* Adds space above the title */
     margin-bottom: 10px;     /* Adds space below the title */

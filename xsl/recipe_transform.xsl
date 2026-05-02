@@ -26,35 +26,22 @@
                     <xsl:apply-templates select="//recipe"/> 
                 </div>
             
+                <!-- Side-by-side Page Loop -->
                 <xsl:for-each select="//tei:pb">
                     <div class="page-wrapper">
                         <div class="image-side">
-                            <!-- LOGIC: Extract filename from TIFF path and point to JPG assets -->
+                            <!-- Logic: Converts TIFF path to JPG asset path -->
                             <xsl:variable name="fileName" select="substring-before(tokenize(@facs, '/')[last()], '.')" />
-                            
                             <img src="assets/img/{$fileName}.jpg" alt="Original Page {@n}"/>
                         </div>
                         <div class="text-side">
+                            <!-- Groups all text following this pb until the next pb -->
                             <xsl:apply-templates
                                 select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
                         </div>
                     </div>
                 </xsl:for-each>
-            
-            
-            
-            <!-- <xsl:for-each select="//tei:pb">
-                    <div class="page-wrapper">
-                        <div class="image-side">
-                            <img src="{@facs}" alt="Original Page {@n}"/>
-                        </div>
-                        <div class="text-side">
-                            <xsl:apply-templates
-                                select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
-                        </div>
-                    </div>
-                </xsl:for-each>  -->    
-                
+              
             </body>
         </html>
     </xsl:template>
@@ -108,6 +95,11 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:p[@rend = 'bold uppercase']">
+        <span class="recipe-title-uppercase">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:p[@rend = 'bold']">
         <span class="recipe-title">
             <xsl:apply-templates/>
         </span>

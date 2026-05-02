@@ -144,7 +144,7 @@
     </teiHeader>
     <text>
         <front>
-            <pb n="1" facs="../collection/img/TIFF/00_Cover.tiff"
+            <pb n="Cover" facs="../collection/img/TIFF/00_Cover.tiff"
                 corresp="../collection/metadata/metadata00_Cover.xml"/>
                         
             <div type="front-cover">
@@ -171,7 +171,7 @@
             
       
             
-            <pb facs="../collection/img/TIFF/01_Tittle.tiff" corresp="../collection/metadata/metadata02_Tittle.xml"/>
+            <pb n="Tittle" facs="../collection/img/TIFF/01_Tittle.tiff" corresp="../collection/metadata/metadata02_Tittle.xml"/>
             <div type="front-page">
                 <p rend="front-title-large">Prinsessornas</p>
                 <p rend="front-title-huge">Kakbok</p>
@@ -191,7 +191,7 @@
                 </div>
             </div>
             
-            <pb facs="../collection/img/TIFF/01_Intro.tiff" corresp="../collection/metadata/metadata01_Intro.xml"/>
+            <pb n="Intro" facs="../collection/img/TIFF/02_Intro.tiff" corresp="../collection/metadata/metadata01_Intro.xml"/>
             <div type="front-matter" subtype="credits">
                 <p rend="center-aligned top-margin">Några av recepten är hämtade ur</p>
                 
@@ -225,7 +225,7 @@
                 </ab>
                 <p rend="procedure">
                     Arbeta smöret med äggulorna. Tillsätt småning- <lb/>
-                    om sockret,mandeln och kryddorna, därefter po- <lb/>
+                    om sockret, mandeln och kryddorna, därefter po- <lb/>
                     tatismjölet och de vispade äggvitorna, sist grädd- <lb/>
                     skummet. Grädda i en vriden form i lagom värme,<lb/>
                     bestryk med sockerglasyr. Lägg på lite aprikos-<lb/>
@@ -297,7 +297,7 @@ litet kanel              2 tsk bakpulver
             </div>
             
         <!-- Image 05_ImageDanskeKronprinsenskaka  -->
-            <pb facs="../collection/img/TIFF/05_ImageDanskeKronprinsenskaka.tiff" corresp="../collection/metadata/metadata05_ImageDanskeKronprinsenskaka.xml"/>    
+            <pb n="Image DanskeKronprinsenskaka" facs="../collection/img/TIFF/05_ImageDanskeKronprinsenskaka.tiff" corresp="../collection/metadata/metadata05_ImageDanskeKronprinsenskaka.xml"/>
             <div type="illustration-text">
                 <p rend="bold uppercase">DANSKE <lb/> <lb/> KRONPRINSENS <lb/><lb/>KAKA</p>
             </div>
@@ -308,9 +308,9 @@ litet kanel              2 tsk bakpulver
         
             <pb n="16" facs="../collection/img/TIFF/07_Page16.tiff" corresp="../collection/metadata/metadata07_Page16.xml"/>
             <div type="recipe">
-                <p rend="bold uppercase">SKÅNSK GALETTE (tekaka)</p>
+                <p rend="bold">SKÅNSK GALETTE (tekaka)</p>
                 <ab xml:space="preserve">
-⅓ l gräddmjöl                20 ägg
+⅓ l gräddmjölk               20 ägg
 550 g vetemjöl               50 g jäst
 100 g smör plus litet        socker och hackad
    extra till späckning      mandel
@@ -344,7 +344,7 @@ litet kanel              2 tsk bakpulver
             
             
             <!-- Image 08_ImagePrinsessaIngridsTarta -->
-            <pb facs="../collection/img/TIFF/08_ImagePrinsessaIngridsTarta.tiff" corresp="../collection/metadata/metadata08_ImagePrinsessaIngridsTarta.xml"/>
+            <pb n="Image PrinsessaIngridsTarta" facs="../collection/img/TIFF/08_ImagePrinsessaIngridsTarta.tiff" corresp="../collection/metadata/metadata08_ImagePrinsessaIngridsTarta.xml"/>
             <div type="illustration-text">
                 <p >Kungliga bröllop har gett <lb/> 
                     upphov till många läckra <lb/> 
@@ -357,7 +357,7 @@ litet kanel              2 tsk bakpulver
             </div>
            
             <!-- Image 09_ImageDrottningLovisaTarta -->
-            <pb facs="../collection/img/TIFF/09_ImageDrottningLovisaTarta.tiff" corresp="../collection/metadata/metadata09_ImageDrottningLovisaTarta.xml"/>
+            <pb n="Image DrottningLovisaTarta" facs="../collection/img/TIFF/09_ImageDrottningLovisaTarta.tiff" corresp="../collection/metadata/metadata09_ImageDrottningLovisaTarta.xml"/>
             <div type="illustration-text">
                 <p ><lb/><lb/><lb/><lb/><lb/><lb/><lb/>
                     <lb/><lb/><lb/><lb/><lb/><lb/><lb/>
@@ -372,7 +372,7 @@ litet kanel              2 tsk bakpulver
             
             
             <!-- Image 10_Enkedrottningens Marenger -->
-            <pb facs="../collection/img/TIFF/10_EnkedrottningensMarenger.tiff" corresp="../collection/metadata/metadata10_EnkedrottningensMarenger.xml"/>
+            <pb n="Image EnkedrottningensMarenger" facs="../collection/img/TIFF/10_EnkedrottningensMarenger.tiff" corresp="../collection/metadata/metadata10_EnkedrottningensMarenger.xml"/>
             <div type="illustration-text">
                 <p rend="bold uppercase">ENKEDROTTNINGENS MARENGER</p>
             </div>
@@ -624,7 +624,7 @@ hallonsylt                  ½ sats vattenglasyr
 smör och bröd till for-       mandel, 50 g flor-
    men                        socker, äggvita,
 <hi rend="italic">Kräm:</hi>                      färg — 6 valnöts-
-1½ dl gräddmjöl               kärnor
+1½ dl gräddmjölk              kärnor
 ½ dl <hi rend="italic">starkt</hi> kaffe
                 </ab>
                 <p rend="procedure">
@@ -703,7 +703,7 @@ tjock grädde                  annan confityr
                 <p rend="bold uppercase">KRONPRINSESSAN ASTRIDS TÅRTA</p>
                 <ab xml:space="preserve">
 <hi rend="italic">Sockerkaka:</hi>                  4½ dl ananasspad
-6 ägg                          och gräddmjöl
+6 ägg                          och gräddmjölk
 210 g strösocker               2 blad gelatin
 55 g potatismjöl               ¼ burk ananas
 55 g vetemjöl                  citronsaft
@@ -881,7 +881,7 @@ tjock grädde                  annan confityr
             
             
             
-            <pb n="68" facs="../collection/img/TIFF/23_Back.tiff" corresp="../collection/metadata/metadata23_Back.xml"/>
+            <pb n="Back Cover" facs="../collection/img/TIFF/23_Back.tiff" corresp="../collection/metadata/metadata23_Back.xml"/>
            <div type="back-cover">
                 <p rend="back-title-blue">PRINSESSORNAS KAKBOK</p>
                 
