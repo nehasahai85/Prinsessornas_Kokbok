@@ -158,7 +158,16 @@ h5 {
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
+.back-italic-intro {
+    font-style: italic;
+    line-height: 1.6;
+    margin: 20px 0;
+    display: block;
+}
 
+.italic-text {
+    font-style: italic;
+}
 
 
 

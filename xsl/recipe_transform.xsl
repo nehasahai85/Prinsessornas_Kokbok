@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
-    <xsl:output method="html" indent="yes"/>
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    version="2.0">
+    <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+    
+    <!-- 1. ROOT TEMPLATE -->
     <xsl:template match="/">
-        <html>
+        <html lang="sv">
             <head>
                 <meta charset="UTF-8"/>
                 <title>Transkribering - Prinsessornas Kakbok</title>
                 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-               
             </head>
-            <body>
+            <body class="body">
                 <nav class="nav">
                     <ul>
                         <li><a href="index.html">Om</a></li>
@@ -21,133 +23,93 @@
                         <li><a href="bladderlage.html">Blädderläge</a></li>
                     </ul>
                 </nav>
+                
                 <div class="content">
                     <h1>Transkribering av Recept</h1>
-                    <xsl:apply-templates select="//recipe"/> 
                 </div>
-            
+                
                 <!-- Side-by-side Page Loop -->
                 <xsl:for-each select="//tei:pb">
+                    <!-- Define the current page number for logic checks -->
+                    <xsl:variable name="pageNum" select="@n"/>
+                    
                     <div class="page-wrapper">
+                        <!-- LEFT SIDE: Image -->
                         <div class="image-side">
-                            <!-- Logic: Converts TIFF path to JPG asset path -->
                             <xsl:variable name="fileName" select="substring-before(tokenize(@facs, '/')[last()], '.')" />
-                            <img src="assets/img/{$fileName}.jpg" alt="Original Page {@n}"/>
+                            <img src="assets/img/{$fileName}.jpg" alt="{@n}"/>
                         </div>
+                        
+                        <!-- RIGHT SIDE: Text Content -->
                         <div class="text-side">
-                            <!-- Groups all text following this pb until the next pb -->
-                            <xsl:apply-templates
-                                select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
+                           <!-- Standard processing for all other pages -->
+                           <xsl:apply-templates select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
                         </div>
                     </div>
                 </xsl:for-each>
-              
             </body>
         </html>
     </xsl:template>
     
-
-    <xsl:template match="tei:figure[@rend = 'crown-icon']">
-        <div class="{@rend}">
-        </div>
-    </xsl:template>
-    <xsl:template match="tei:figure[@rend = 'main-illustration']">
-        <div class="{@rend}">
-        </div>
-    </xsl:template>
-    
-    <xsl:template match="tei:p[@rend] | tei:div[@rend]">
-        <xsl:element name="{local-name()}">
-            <xsl:attribute name="class">
-                <xsl:value-of select="@rend"/>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>
-    
-    
-    
-    <xsl:template match="tei:p[@rend = 'cover-title-top' or @rend = 'cover-title-bottom']">
+    <!-- 2. CONSOLIDATED RENDERING ENGINE -->
+    <!-- This handles most paragraphs and divs by turning @rend into a class -->
+    <xsl:template match="tei:p[@rend] | tei:div[@rend]" priority="1">
         <div class="{@rend}">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:figure[@rend = 'crown-icon']">
-        <span class="crown-icon"></span>
+    <!-- 3. SPECIFIC OVERRIDES (High Priority) -->
+    
+    <!-- Recipe Titles -->
+    <xsl:template match="tei:p[@rend = 'bold uppercase']" priority="2">
+        <span class="recipe-title-uppercase"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match="tei:div[@type='front-cover']">
-        <div class="front-cover-container">
-            <xsl:apply-templates/>
-        </div>
+    <xsl:template match="tei:p[@rend = 'bold']" priority="2">
+        <span class="recipe-title"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match="tei:p[@rend='cover-title-top']">
-        <p class="cover-title-top">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="tei:p[@rend='cover-title-bottom']">
-        <p class="cover-title-bottom">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="tei:p[@rend = 'bold uppercase']">
-        <span class="recipe-title-uppercase">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="tei:p[@rend = 'bold']">
-        <span class="recipe-title">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-      
-    <xsl:template match="tei:figure[@rend='main-cover-art']">
-        <div class="cover-image-placeholder">
-            <img src="path/to/princesses-cake-illustration.jpg" alt="Princesses and Cake Illustration" />
-        </div>
-    </xsl:template>
-    <xsl:template match="tei:hr">
-        <hr class="{@rend}"/>
-    </xsl:template>
-    <xsl:template match="tei:docTitle">
-
-        <div class="title-part-main">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    <xsl:template match="tei:titlePart">
-        <p style="font-size: 1.5em; margin: 10px 0;"><xsl:apply-templates/></p>
-    </xsl:template>
-        <xsl:template match="tei:ab[@xml:space = 'preserve']">
+    <!-- Ingredients -->
+    <xsl:template match="tei:ab[@xml:space = 'preserve']" priority="2">
         <pre class="ingredients"><xsl:apply-templates/></pre>
     </xsl:template>
-
-    <xsl:template match="tei:p[@rend = 'procedure']">
-        <div class="procedure">
+    
+    <!-- Figures & Icons -->
+    <xsl:template match="tei:figure[@rend = 'crown-icon']" priority="2">
+        <span class="crown-icon"></span>
+    </xsl:template>
+    <xsl:template match="tei:figDesc" priority="3"/>
+    <xsl:template match="tei:figure[@rend='main-cover-art']" priority="3"/>
+    <xsl:template match="tei:p[@rend='back-italic-intro']" priority="3">
+        <div class="back-italic-intro">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    <xsl:template match="tei:p[@rend='cover-title-top']" priority="3">
+        <div class="cover-title-top">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:p[@rend='cover-title-bottom']" priority="3">
+        <div class="cover-title-bottom">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <!-- 4. GENERAL ELEMENTS -->
+    <xsl:template match="tei:p" priority="0">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    <xsl:template match="tei:p">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="tei:hi[@rend='italic']">
-        <i><xsl:apply-templates/></i>
-    </xsl:template>
-    
-    
-    
     
 
     
+    <xsl:template match="tei:hr">
+        <hr class="{@rend}"/>
+    </xsl:template>
     
-
 </xsl:stylesheet>

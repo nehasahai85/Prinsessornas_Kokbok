@@ -1,127 +1,144 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <title>Galleri | Prinsessornas Kakbok</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .zoom-box {
-            width: 600px;
-            height: 800px;
-            overflow: hidden;
-            border: 2px solid #d4af37;
-            position: relative;
-            margin: 20px auto;
-            cursor: zoom-in;
-            background-color: #eee;
-        }
-        .zoom-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            transition: transform 0.1s ease-out;
-            transform-origin: center center;
-        }
-    </style>
-</head>
-<body>
-    <nav class="nav">
-    <ul>
-        <li><a href="index.html">Om</a></li>
-        <li><a href="transkribering.html">Transkribering</a></li>
-        <li><a href="text.html">Text</a></li>
-        <li><a href="galleri.html" class="active">Galleri</a></li>
-        <li><a href="bladderlage.html">Blädderläge</a></li>
-    </ul>
-	</nav>
-
-    <div class="container">
-        <h1 style="text-align:center;">Interaktivt Galleri</h1>
-        <p style="text-align:center;">Håll musen över bilden för att zooma in och panorera.</p>
-
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_1.png" alt="Sida 1">
-        </div>
-        
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_3.png" alt="Sida 3">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_4.png" alt="Sida 4">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_7.png" alt="Sida 7">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_8.png" alt="Sida 8">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_16.png" alt="Sida 16">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_26.png" alt="Sida 26">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_34.png" alt="Sida 34">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_35.png" alt="Sida 35">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_36.png" alt="Sida 36">
-        </div>
-		<div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_37.png" alt="Sida 37">
-        </div>
-        
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_41.png" alt="Sida 41">
-        </div>
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_42.png" alt="Sida 42">
-        </div>
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_58.png" alt="Sida 58">
-        </div>
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_59.png" alt="Sida 59">
-        </div>
-        
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_60.png" alt="Sida 60">
-        </div>
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_61.png" alt="Sida 61">
-        </div>
-        <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)">
-            <img src="assets/img/image_backcover.png" >
-        </div>
-    </div>
-
-    <script>
-        function zoomIn(e) {
-            const box = e.currentTarget;
-            const img = box.querySelector('img');
-            
-            // Get mouse position relative to the box
-            const rect = box.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            
-            // Calculate percentage
-            const xPercent = (x / rect.width) * 100;
-            const yPercent = (y / rect.height) * 100;
-            
-            // Apply zoom and move origin to mouse position
-            img.style.transformOrigin = `${xPercent}% ${yPercent}%`;
-            img.style.transform = "scale(2.5)";
-        }
-
-        function zoomOut(e) {
-            const img = e.currentTarget.querySelector('img');
-            img.style.transform = "scale(1)";
-            img.style.transformOrigin = "center center";
-        }
-    </script>
-</body>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Galleri | Prinsessornas Kakbok</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <style>
+                    .zoom-box {
+                    width: 600px; height: 800px;
+                    overflow: hidden; border: 2px solid #d4af37;
+                    position: relative; margin: 20px auto;
+                    cursor: zoom-in; background-color: #eee;
+                    }
+                    .zoom-box img {
+                    width: 100%; height: 100%;
+                    object-fit: contain; transition: transform 0.1s ease-out;
+                    transform-origin: center center;
+                    }
+                    .gallery-page-label {
+                    text-align: center; font-family: "Times New Roman", serif;
+                    font-weight: bold; margin-top: 10px; font-size: 1.2rem;
+                    }
+                </style>
+   </head>
+   <body class="body">
+      <nav class="nav">
+         <ul>
+            <li><a href="index.html">Om</a></li>
+            <li><a href="transkribering.html">Transkribering</a></li>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="galleri.html" class="active">Galleri</a></li>
+            <li><a href="bladderlage.html">Blädderläge</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <h1 style="text-align:center;">Interaktivt Galleri</h1>
+         <p style="text-align:center;">Håll musen över bilden för att zooma in och panorera.</p>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/00_Cover.jpg" alt="Sida Cover"></div>
+            <p class="gallery-page-label">Sida Cover</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/01_Tittle.jpg" alt="Sida Tittle"></div>
+            <p class="gallery-page-label">Sida Tittle</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/02_Intro.jpg" alt="Sida Intro"></div>
+            <p class="gallery-page-label">Sida Intro</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/03_Page7.jpg" alt="Sida 7"></div>
+            <p class="gallery-page-label">Sida 7</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/04_Page8.jpg" alt="Sida 8"></div>
+            <p class="gallery-page-label">Sida 8</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/05_ImageDanskeKronprinsenskaka.jpg" alt="Sida Image DanskeKronprinsenskaka"></div>
+            <p class="gallery-page-label">Sida Image DanskeKronprinsenskaka</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/07_Page16.jpg" alt="Sida 16"></div>
+            <p class="gallery-page-label">Sida 16</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/08_ImagePrinsessaIngridsTarta.jpg" alt="Sida Image PrinsessaIngridsTarta"></div>
+            <p class="gallery-page-label">Sida Image PrinsessaIngridsTarta</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/09_ImageDrottningLovisaTarta.jpg" alt="Sida Image DrottningLovisaTarta"></div>
+            <p class="gallery-page-label">Sida Image DrottningLovisaTarta</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/10_EnkedrottningensMarenger.jpg" alt="Sida Image EnkedrottningensMarenger"></div>
+            <p class="gallery-page-label">Sida Image EnkedrottningensMarenger</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/11_Page26.jpg" alt="Sida 26"></div>
+            <p class="gallery-page-label">Sida 26</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/13_Page34.jpg" alt="Sida 34"></div>
+            <p class="gallery-page-label">Sida 34</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/14_Page35.jpg" alt="Sida 35"></div>
+            <p class="gallery-page-label">Sida 35</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/15_Page36.jpg" alt="Sida 36"></div>
+            <p class="gallery-page-label">Sida 36</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/16_Page37.jpg" alt="Sida 37"></div>
+            <p class="gallery-page-label">Sida 37</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/17_Page41.jpg" alt="Sida 41"></div>
+            <p class="gallery-page-label">Sida 41</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/18_Page42.jpg" alt="Sida 42"></div>
+            <p class="gallery-page-label">Sida 42</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/19_Page58.jpg" alt="Sida 58"></div>
+            <p class="gallery-page-label">Sida 58</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/20_Page59.jpg" alt="Sida 59"></div>
+            <p class="gallery-page-label">Sida 59</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/21_Page60.jpg" alt="Sida 60"></div>
+            <p class="gallery-page-label">Sida 60</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/22_Page61.jpg" alt="Sida 61"></div>
+            <p class="gallery-page-label">Sida 61</p>
+         </div>
+         <div class="gallery-item">
+            <div class="zoom-box" onmousemove="zoomIn(event)" onmouseleave="zoomOut(event)"><img src="assets/img/23_Back.jpg" alt="Sida Back Cover"></div>
+            <p class="gallery-page-label">Sida Back Cover</p>
+         </div>
+      </div><script>
+                    function zoomIn(e) {
+                    const box = e.currentTarget;
+                    const img = box.querySelector('img');
+                    const rect = box.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const xPercent = (x / rect.width) * 100;
+                    const yPercent = (y / rect.height) * 100;
+                    img.style.transformOrigin = xPercent + "% " + yPercent + "%";
+                    img.style.transform = "scale(2.5)";
+                    }
+                    function zoomOut(e) {
+                    const img = e.currentTarget.querySelector('img');
+                    img.style.transform = "scale(1)";
+                    img.style.transformOrigin = "center center";
+                    }
+                </script></body>
 </html>
