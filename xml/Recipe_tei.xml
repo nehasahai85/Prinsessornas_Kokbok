@@ -144,7 +144,7 @@
     </teiHeader>
     <text>
         <front>
-            <pb n="1" facs="assets/img/image_1.png"/>
+            <pb n="1" facs="assets/img/00_Cover.jpg"/>
                         
             <div type="front-cover">
                 <p rend="cover-title-top">
@@ -173,7 +173,7 @@
             </docTitle>  -->
             
             
-            <pb facs="assets/img/image_3.png"/>
+            <pb facs="assets/img/01_Tittle.jpg"/>
             <div type="front-page">
                 <p rend="front-title-large">Prinsessornas</p>
                 <p rend="front-title-huge">Kakbok</p>
@@ -194,7 +194,7 @@
             </div>
             
             
-            <pb n="4" facs="assets/img/image_4.png"/>
+            <pb n="4" facs="assets/img/02_Intro"/>
             <div type="front-matter" subtype="credits">
                 <p rend="center-aligned top-margin">Några av recepten är hämtade ur</p>
                 
@@ -214,8 +214,8 @@
             </div>
         </front>
         <body>
-            
-            <pb n="7" facs="assets/img/image_7.png"/>
+            <!-- For Page 7 -->
+            <pb n="7" facs="assets/img/03_Page7.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">VICTORIA-KAKA</p>
                 <ab xml:space="preserve">
@@ -259,7 +259,7 @@ litet kanel              2 tsk bakpulver
            <!-- Page 8 --> 
             
             
-            <pb n="8" facs="assets/img/image_8.png"/>
+            <pb n="8" facs="assets/img/04_Page8.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">DANSKE KRONPRINSENS KAKA</p>
                 <ab xml:space="preserve">
@@ -298,9 +298,18 @@ litet kanel              2 tsk bakpulver
                 </p>
                 <p rend="page-number">8</p>
             </div>
+            
+        <!-- Image 05_ImageDanskeKronprinsenskaka  -->
+        <pb facs="assets/img/05_ImageDanskeKronprinsenskaka.jpg"/>    
+            <div type="illustration-text">
+                <p rend="bold uppercase">DANSKE <lb/> <lb/> KRONPRINSENS <lb/><lb/>KAKA</p>
+            </div>
+            
+            
+            
         <!-- Page 16 -->
         
-            <pb n="16" facs="assets/img/image_16.png"/>
+            <pb n="16" facs="assets/img/07_Page16.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">SKÅNSK GALETTE (tekaka)</p>
                 <ab xml:space="preserve">
@@ -336,8 +345,43 @@ litet kanel              2 tsk bakpulver
                 <p rend="page-number">16</p>
             </div>
             
+            
+            <!-- Image 08_ImagePrinsessaIngridsTarta -->
+            <pb facs="assets/img/08_ImagePrinsessaIngridsTarta.jpg"/>
+            <div type="illustration-text">
+                <p >Kungliga bröllop har gett <lb/> 
+                    upphov till många läckra <lb/> 
+                    bakverk. Den här tårtan, <lb/> 
+                    som smakar ljuvligt gott <lb/> 
+                    av mandel, nötter och <lb/> 
+                    smörkräm, komponera- <lb/> 
+                    des till dåvarande prin- <lb/> 
+                    sessan Ingrids lysning.</p>
+            </div>
+           
+            <!-- Image 09_ImageDrottningLovisaTarta -->
+            <pb facs="assets/img/09_ImageDrottningLovisaTarta.jpg"/>
+            <div type="illustration-text">
+                <p ><lb/><lb/><lb/><lb/><lb/><lb/><lb/>
+                    <lb/><lb/><lb/><lb/><lb/><lb/><lb/>
+                    Drottning Lovisa tyckte <lb/> 
+                    mycket om tusenblads- <lb/> 
+                    tårtor. Hennes favorit var <lb/> 
+                    den här tårtan med fyll- <lb/> 
+                    ning av aprikos- eller <lb/> 
+                    plommonmarmelad och <lb/> 
+                    vispgrädde.</p>
+            </div>   
+            
+            
+            <!-- Image 10_Enkedrottningens Marenger -->
+            <pb facs="assets/img/10_Enkedrottningens Marenger.jpg"/>
+            <div type="illustration-text">
+                <p rend="bold uppercase">ENKEDROTTNINGENS MARENGER</p>
+            </div>
+           
             <!-- Page 26 -->
-            <pb n="26" facs="assets/img/image_26.png"/>
+            <pb n="26" facs="assets/img/11_Page26.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">DROTTNING LOVISAS SANDBAKELSER</p>
                 <ab xml:space="preserve">
@@ -384,7 +428,7 @@ litet kanel              2 tsk bakpulver
             
           <!-- Page 34 -->  
             
-            <pb n="34" facs="assets/img/image_34.png"/>
+            <pb n="34" facs="assets/img/13_Page34.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">PRINSESSKAKOR</p>
                 <ab xml:space="preserve">
@@ -428,7 +472,7 @@ Mördeg:                   Mandelmassa:
             
             
         <!-- Page 35 -->    
-            <pb n="35" facs="assets/img/image_35.png"/>
+            <pb n="35" facs="assets/img/14_Page35.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     Bred ut degen i en stor tårtform med löstagbar<lb/>
@@ -476,7 +520,7 @@ Mördeg:                   Mandelmassa:
             
          <!-- Page 36 -->   
             
-            <pb n="36" facs="assets/img/image_36.png"/>
+            <pb n="36" facs="assets/img/15_Page36.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     me åt den förut färdiggräddade tårtbottnen, ställ<lb/>
@@ -525,7 +569,7 @@ tjock grädde                vinbärssylt
             
             
      <!-- Page 37 -->       
-            <pb n="37" facs="assets/img/image_37.png"/>
+            <pb n="37" facs="assets/img/16_Page37.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     Kyl smördegen och dela den därefter i mindre<lb/>
@@ -567,7 +611,7 @@ hallonsylt                  ½ sats vattenglasyr
             </div>           
             
             <!-- Page 41 -->
-            <pb n="41" facs="assets/img/image_41.png"/>
+            <pb n="41" facs="assets/img/17_Page41.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">KRONPRINSESSAN MÄRTHAS TÅRTA</p>
                 <ab xml:space="preserve">
@@ -611,7 +655,7 @@ smör och bröd till for-       mandel, 50 g flor-
 
 <!-- Page 42 -->
 
-            <pb n="42" facs="assets/img/image_42.png"/>
+            <pb n="42" facs="assets/img/18_Page42.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     Skär kakan i tre bottnar och bred den tunna,<lb/>
@@ -657,7 +701,7 @@ tjock grädde                  annan confityr
             <!-- page 58 -->
             
             
-            <pb n="58" facs="assets/img/image_58.png"/>
+            <pb n="58" facs="assets/img/19_Page58.jpg"/>
             <div type="recipe">
                 <p rend="bold uppercase">KRONPRINSESSAN ASTRIDS TÅRTA</p>
                 <ab xml:space="preserve">
@@ -699,7 +743,7 @@ tjock grädde                  annan confityr
             </div>
             
             <!-- page 59 -->
-            <pb n="59" facs="assets/img/image_59.png"/>
+            <pb n="59" facs="assets/img/20_Page59.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     kall och mal den på mandelkvarn. Blanda den i<lb/>
@@ -747,7 +791,7 @@ tjock grädde                  annan confityr
             
             <!-- page 60 -->
             
-            <pb n="60" facs="assets/img/image_60.png"/>
+            <pb n="60" facs="assets/img/21_Page60.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     Klipp vindruvorna från stjälken och torka dem.<lb/>
@@ -793,7 +837,7 @@ tjock grädde                  annan confityr
             </div>
             
             <!-- page 61 -->
-            <pb n="61" facs="assets/img/image_61.png"/>
+            <pb n="61" facs="assets/img/22_Page61.jpg"/>
             <div type="recipe">
                 <p rend="procedure">
                     Vispa äggvitorna till skum och slå dem ytter-<lb/>
@@ -840,7 +884,7 @@ tjock grädde                  annan confityr
             
             
             
-            <pb n="68" facs="assets/img/image_backcover.png"/>
+            <pb n="68" facs="assets/img/23_Back.jpg"/>
            <div type="back-cover">
                 <p rend="back-title-blue">PRINSESSORNAS KAKBOK</p>
                 

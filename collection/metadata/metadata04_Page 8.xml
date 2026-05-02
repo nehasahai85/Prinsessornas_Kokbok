@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+<rdf:Description rdf:about='/Users/diblik/Desktop/TIFF/04_Page 8.tiff'
+  xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 13.57'
+  xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
+  xmlns:System='http://ns.exiftool.org/File/System/1.0/'
+  xmlns:File='http://ns.exiftool.org/File/1.0/'
+  xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
+  xmlns:XMP-x='http://ns.exiftool.org/XMP/XMP-x/1.0/'
+  xmlns:XMP-aux='http://ns.exiftool.org/XMP/XMP-aux/1.0/'
+  xmlns:XMP-photoshop='http://ns.exiftool.org/XMP/XMP-photoshop/1.0/'
+  xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
+  xmlns:XMP-xmpMM='http://ns.exiftool.org/XMP/XMP-xmpMM/1.0/'
+  xmlns:Photoshop='http://ns.exiftool.org/Photoshop/Photoshop/1.0/'
+  xmlns:ExifIFD='http://ns.exiftool.org/EXIF/ExifIFD/1.0/'
+  xmlns:ICC-header='http://ns.exiftool.org/ICC_Profile/ICC-header/1.0/'
+  xmlns:ICC_Profile='http://ns.exiftool.org/ICC_Profile/ICC_Profile/1.0/'
+  xmlns:GPS='http://ns.exiftool.org/EXIF/GPS/1.0/'
+  xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
+ <ExifTool:ExifToolVersion>13.57</ExifTool:ExifToolVersion>
+ <System:FileName>04_Page8.tiff</System:FileName>
+ <System:Directory>/Users/diblik/Desktop/TIFF</System:Directory>
+ <System:FileSize>2.7 MB</System:FileSize>
+ <System:FileModifyDate>2026:04:29 21:22:54+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2026:04:29 22:03:44+02:00</System:FileAccessDate>
+ <System:FileInodeChangeDate>2026:04:29 22:05:45+02:00</System:FileInodeChangeDate>
+ <System:FilePermissions>-rw-r--r--</System:FilePermissions>
+ <File:FileType>TIFF</File:FileType>
+ <File:FileTypeExtension>tif</File:FileTypeExtension>
+ <File:MIMEType>image/tiff</File:MIMEType>
+ <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
+ <IFD0:ImageWidth>1517</IFD0:ImageWidth>
+ <IFD0:ImageHeight>2516</IFD0:ImageHeight>
+ <IFD0:BitsPerSample>8 8 8</IFD0:BitsPerSample>
+ <IFD0:Compression>Adobe Deflate</IFD0:Compression>
+ <IFD0:PhotometricInterpretation>RGB</IFD0:PhotometricInterpretation>
+ <IFD0:Make>Apple</IFD0:Make>
+ <IFD0:Model>iPhone X</IFD0:Model>
+ <IFD0:StripOffsets>(Binary data 18945 bytes, use -b option to extract)</IFD0:StripOffsets>
+ <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
+ <IFD0:SamplesPerPixel>3</IFD0:SamplesPerPixel>
+ <IFD0:RowsPerStrip>1</IFD0:RowsPerStrip>
+ <IFD0:StripByteCounts>(Binary data 11066 bytes, use -b option to extract)</IFD0:StripByteCounts>
+ <IFD0:XResolution>72</IFD0:XResolution>
+ <IFD0:YResolution>72</IFD0:YResolution>
+ <IFD0:PlanarConfiguration>Chunky</IFD0:PlanarConfiguration>
+ <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
+ <IFD0:Software>16.7.15</IFD0:Software>
+ <IFD0:ModifyDate>2026:04:29 21:22:54</IFD0:ModifyDate>
+ <IFD0:Predictor>Horizontal differencing</IFD0:Predictor>
+ <XMP-x:XMPToolkit>XMP Core 5.5.0</XMP-x:XMPToolkit>
+ <XMP-aux:Lens>iPhone X back dual camera 4mm f/1.8</XMP-aux:Lens>
+ <XMP-photoshop:ColorMode>RGB</XMP-photoshop:ColorMode>
+ <XMP-photoshop:ICCProfileName>Display P3</XMP-photoshop:ICCProfileName>
+ <XMP-xmp:CreateDate>2026:04:18 14:24:45.385+02:00</XMP-xmp:CreateDate>
+ <XMP-xmp:CreatorTool>16.7.15</XMP-xmp:CreatorTool>
+ <XMP-xmp:MetadataDate>2026:04:29 21:22:54+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmp:ModifyDate>2026:04:29 21:22:54+02:00</XMP-xmp:ModifyDate>
+ <XMP-xmpMM:HistoryAction>
+  <rdf:Bag>
+   <rdf:li>produced</rdf:li>
+   <rdf:li>produced</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryAction>
+ <XMP-xmpMM:HistorySoftwareAgent>
+  <rdf:Bag>
+   <rdf:li>Affinity Photo 2 2.6.0</rdf:li>
+   <rdf:li>Affinity Photo 2 2.6.0</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistorySoftwareAgent>
+ <XMP-xmpMM:HistoryWhen>
+  <rdf:Bag>
+   <rdf:li>2026:04:18 21:53:39+02:00</rdf:li>
+   <rdf:li>2026:04:29 21:22:54+02:00</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryWhen>
+ <Photoshop:IPTCDigest>d41d8cd98f00b204e9800998ecf8427e</Photoshop:IPTCDigest>
+ <ExifIFD:ExposureTime>1/118</ExifIFD:ExposureTime>
+ <ExifIFD:FNumber>1.8</ExifIFD:FNumber>
+ <ExifIFD:ExposureProgram>Program AE</ExifIFD:ExposureProgram>
+ <ExifIFD:ISO>20</ExifIFD:ISO>
+ <ExifIFD:ExifVersion>0232</ExifIFD:ExifVersion>
+ <ExifIFD:DateTimeOriginal>2026:04:18 14:24:45</ExifIFD:DateTimeOriginal>
+ <ExifIFD:ShutterSpeedValue>1/118</ExifIFD:ShutterSpeedValue>
+ <ExifIFD:ApertureValue>1.8</ExifIFD:ApertureValue>
+ <ExifIFD:BrightnessValue>6.473987864</ExifIFD:BrightnessValue>
+ <ExifIFD:ExposureCompensation>0</ExifIFD:ExposureCompensation>
+ <ExifIFD:MeteringMode>Multi-segment</ExifIFD:MeteringMode>
+ <ExifIFD:Flash>Off, Did not fire</ExifIFD:Flash>
+ <ExifIFD:FocalLength>4.0 mm</ExifIFD:FocalLength>
+ <ExifIFD:SubSecTimeOriginal>385</ExifIFD:SubSecTimeOriginal>
+ <ExifIFD:ColorSpace>Uncalibrated</ExifIFD:ColorSpace>
+ <ExifIFD:ExifImageWidth>1517</ExifIFD:ExifImageWidth>
+ <ExifIFD:ExifImageHeight>2516</ExifIFD:ExifImageHeight>
+ <ExifIFD:SensingMethod>One-chip color area</ExifIFD:SensingMethod>
+ <ExifIFD:SceneType>Directly photographed</ExifIFD:SceneType>
+ <ExifIFD:ExposureMode>Auto</ExifIFD:ExposureMode>
+ <ExifIFD:WhiteBalance>Auto</ExifIFD:WhiteBalance>
+ <ExifIFD:FocalLengthIn35mmFormat>28 mm</ExifIFD:FocalLengthIn35mmFormat>
+ <ExifIFD:LensMake>Apple</ExifIFD:LensMake>
+ <ExifIFD:LensModel>iPhone X back dual camera 4mm f/1.8</ExifIFD:LensModel>
+ <ICC-header:ProfileCMMType>Little CMS</ICC-header:ProfileCMMType>
+ <ICC-header:ProfileVersion>4.0.0</ICC-header:ProfileVersion>
+ <ICC-header:ProfileClass>Display Device Profile</ICC-header:ProfileClass>
+ <ICC-header:ColorSpaceData>RGB </ICC-header:ColorSpaceData>
+ <ICC-header:ProfileConnectionSpace>XYZ </ICC-header:ProfileConnectionSpace>
+ <ICC-header:ProfileDateTime>2022:01:01 00:00:00</ICC-header:ProfileDateTime>
+ <ICC-header:ProfileFileSignature>acsp</ICC-header:ProfileFileSignature>
+ <ICC-header:PrimaryPlatform>Apple Computer Inc.</ICC-header:PrimaryPlatform>
+ <ICC-header:CMMFlags>Not Embedded, Independent</ICC-header:CMMFlags>
+ <ICC-header:DeviceManufacturer>Apple Computer Inc.</ICC-header:DeviceManufacturer>
+ <ICC-header:DeviceModel></ICC-header:DeviceModel>
+ <ICC-header:DeviceAttributes>Reflective, Glossy, Positive, Color</ICC-header:DeviceAttributes>
+ <ICC-header:RenderingIntent>Perceptual</ICC-header:RenderingIntent>
+ <ICC-header:ConnectionSpaceIlluminant>0.9642 1 0.82491</ICC-header:ConnectionSpaceIlluminant>
+ <ICC-header:ProfileCreator>Little CMS</ICC-header:ProfileCreator>
+ <ICC-header:ProfileID>ecfda38e388547c36db4bd4f7ada182f</ICC-header:ProfileID>
+ <ICC_Profile:ProfileDescription>Display P3</ICC_Profile:ProfileDescription>
+ <ICC_Profile:ProfileCopyright>Copyright Apple Inc., 2022</ICC_Profile:ProfileCopyright>
+ <ICC_Profile:MediaWhitePoint>0.96419 1 0.82489</ICC_Profile:MediaWhitePoint>
+ <ICC_Profile:RedMatrixColumn>0.51512 0.2412 -0.00105</ICC_Profile:RedMatrixColumn>
+ <ICC_Profile:GreenMatrixColumn>0.29198 0.69225 0.04189</ICC_Profile:GreenMatrixColumn>
+ <ICC_Profile:BlueMatrixColumn>0.1571 0.06657 0.78407</ICC_Profile:BlueMatrixColumn>
+ <ICC_Profile:RedTRC>(Binary data 32 bytes, use -b option to extract)</ICC_Profile:RedTRC>
+ <ICC_Profile:ChromaticAdaptation>1.04788 0.02292 -0.0502 0.02959 0.99048 -0.01706 -0.00923 0.01508 0.75168</ICC_Profile:ChromaticAdaptation>
+ <ICC_Profile:BlueTRC>(Binary data 32 bytes, use -b option to extract)</ICC_Profile:BlueTRC>
+ <ICC_Profile:GreenTRC>(Binary data 32 bytes, use -b option to extract)</ICC_Profile:GreenTRC>
+ <GPS:GPSLatitudeRef>North</GPS:GPSLatitudeRef>
+ <GPS:GPSLatitude>57 deg 41&#39; 44.11&quot;</GPS:GPSLatitude>
+ <GPS:GPSLongitudeRef>East</GPS:GPSLongitudeRef>
+ <GPS:GPSLongitude>11 deg 59&#39; 4.49&quot;</GPS:GPSLongitude>
+ <GPS:GPSAltitudeRef>Above Sea Level</GPS:GPSAltitudeRef>
+ <GPS:GPSAltitude>24.6 m</GPS:GPSAltitude>
+ <GPS:GPSSpeedRef>km/h</GPS:GPSSpeedRef>
+ <GPS:GPSSpeed>0.1633376777</GPS:GPSSpeed>
+ <GPS:GPSImgDirectionRef>True North</GPS:GPSImgDirectionRef>
+ <GPS:GPSImgDirection>310.7600251</GPS:GPSImgDirection>
+ <GPS:GPSDestBearingRef>True North</GPS:GPSDestBearingRef>
+ <GPS:GPSDestBearing>310.7600251</GPS:GPSDestBearing>
+ <Composite:Aperture>1.8</Composite:Aperture>
+ <Composite:ImageSize>1517x2516</Composite:ImageSize>
+ <Composite:Megapixels>3.8</Composite:Megapixels>
+ <Composite:ScaleFactor35efl>7.0</Composite:ScaleFactor35efl>
+ <Composite:ShutterSpeed>1/118</Composite:ShutterSpeed>
+ <Composite:SubSecDateTimeOriginal>2026:04:18 14:24:45.385</Composite:SubSecDateTimeOriginal>
+ <Composite:GPSAltitude>24.6 m Above Sea Level</Composite:GPSAltitude>
+ <Composite:GPSLatitude>57 deg 41&#39; 44.11&quot; N</Composite:GPSLatitude>
+ <Composite:GPSLongitude>11 deg 59&#39; 4.49&quot; E</Composite:GPSLongitude>
+ <Composite:CircleOfConfusion>0.004 mm</Composite:CircleOfConfusion>
+ <Composite:FOV>65.5 deg</Composite:FOV>
+ <Composite:FocalLength35efl>4.0 mm (35 mm equivalent: 28.0 mm)</Composite:FocalLength35efl>
+ <Composite:GPSPosition>57 deg 41&#39; 44.11&quot; N, 11 deg 59&#39; 4.49&quot; E</Composite:GPSPosition>
+ <Composite:HyperfocalDistance>2.07 m</Composite:HyperfocalDistance>
+ <Composite:LightValue>10.9</Composite:LightValue>
+ <Composite:LensID>iPhone X back dual camera 4mm f/1.8</Composite:LensID>
+</rdf:Description>
+</rdf:RDF>
