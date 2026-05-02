@@ -25,8 +25,25 @@
                     <h1>Transkribering av Recept</h1>
                     <xsl:apply-templates select="//recipe"/> 
                 </div>
-                
+            
                 <xsl:for-each select="//tei:pb">
+                    <div class="page-wrapper">
+                        <div class="image-side">
+                            <!-- LOGIC: Extract filename from TIFF path and point to JPG assets -->
+                            <xsl:variable name="fileName" select="substring-before(tokenize(@facs, '/')[last()], '.')" />
+                            
+                            <img src="assets/img/{$fileName}.jpg" alt="Original Page {@n}"/>
+                        </div>
+                        <div class="text-side">
+                            <xsl:apply-templates
+                                select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
+                        </div>
+                    </div>
+                </xsl:for-each>
+            
+            
+            
+            <!-- <xsl:for-each select="//tei:pb">
                     <div class="page-wrapper">
                         <div class="image-side">
                             <img src="{@facs}" alt="Original Page {@n}"/>
@@ -36,15 +53,13 @@
                                 select="following-sibling::*[generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())]"/>
                         </div>
                     </div>
-                </xsl:for-each>
+                </xsl:for-each>  -->    
+                
             </body>
         </html>
     </xsl:template>
-    <!-- <xsl:template match="tei:p[@rend = 'cover-title-top' or @rend = 'cover-title-bottom']">
-        <div class="{@rend}">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template> -->
+    
+
     <xsl:template match="tei:figure[@rend = 'crown-icon']">
         <div class="{@rend}">
         </div>
@@ -62,6 +77,8 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    
+    
     
     <xsl:template match="tei:p[@rend = 'cover-title-top' or @rend = 'cover-title-bottom']">
         <div class="{@rend}">
