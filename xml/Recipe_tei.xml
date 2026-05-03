@@ -30,6 +30,8 @@
                 <respStmt>
                     <resp>Transkribering och kodning validerad av</resp>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -61,13 +63,25 @@
                         <author><persName><forename>Sigyn </forename><surname>Reimers</surname></persName></author>
                         <title>Prinsessornas Kakbok</title>
                         <imprint>
-                            <publisher>Housemodern</publisher>
+                            <publisher>Husmodern</publisher>
                             <pubPlace>Stockholm</pubPlace>
                             <date>1960</date>
                         </imprint>
                         <extent>72 sidor</extent>
                     </monogr>
                 </biblStruct>
+                <listBibl>
+                    <head>Några av recepten är hämtade ur:</head>
+                    <bibl>
+                        <title>Prinsessornas kokbok</title>
+                    </bibl>
+                    <bibl>
+                        <author>Paul Arbin</author>: <title>Kungliga rätter</title>
+                    </bibl>
+                    <bibl>
+                        <author>Einar Nerman</author>: <title>Celebriteter och läckerheter</title>
+                    </bibl>
+                </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <country>Sverige</country>
@@ -78,7 +92,7 @@
                         <objectDesc form="Boken">
                             <supportDesc >
                                 <support>
-                                    <p><material>Papper</material> med en häftad papper bindning.</p>
+                                    <p><material>Papper</material> pappersbindning.</p>
                                     
                                        </support>
                                          <extent> 72 sidor
