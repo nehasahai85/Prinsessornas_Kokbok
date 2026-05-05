@@ -10,24 +10,10 @@
             <head>
                 <meta charset="UTF-8"/>
                 <title>Galleri | Prinsessornas Kakbok</title>
+                <!-- first: the main site style (menu, background, etc) -->
                 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-                <style>
-                    .zoom-box {
-                    width: 600px; height: 800px;
-                    overflow: hidden; border: 2px solid #d4af37;
-                    position: relative; margin: 20px auto;
-                    cursor: zoom-in; background-color: #eee;
-                    }
-                    .zoom-box img {
-                    width: 100%; height: 100%;
-                    object-fit: contain; transition: transform 0.1s ease-out;
-                    transform-origin: center center;
-                    }
-                    .gallery-page-label {
-                    text-align: center; font-family: "Times New Roman", serif;
-                    font-weight: bold; margin-top: 10px; font-size: 1.2rem;
-                    }
-                </style>
+                <!-- second: the specific viewer style -->
+                <link rel="stylesheet" type="text/css" href="assets/css/gallery_shared.css"/>
             </head>
             <body class="body">
                 <nav class="nav">

@@ -13,14 +13,14 @@
                 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
                 <link rel="stylesheet" type="text/css" href="assets/css/text_style.css"/>
             </head>
-            <body>
+            <body class="body">
                 <nav class="nav">
                     <ul>
-                        <li><a href="index.html">Om</a></li>
-                        <li><a href="transkribering.html" class="active">Transkribering</a></li>
-                        <li><a href="text.html">Text</a></li>
-                        <li><a href="galleri.html">Galleri</a></li>
-                        <li><a href="bladderlage.html">Blädderläge</a></li>
+                        <li><a href="index.html">om</a></li>
+                        <li><a href="transkribering.html">transkribering</a></li>
+                        <li><a href="text.html" class="active">text</a></li>
+                        <li><a href="galleri.html">galleri</a></li>
+                        <li><a href="bladderlage.html">blädderläge</a></li>
                     </ul>
                 </nav>
                 

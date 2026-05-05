@@ -30,14 +30,14 @@
                 <respStmt>
                     <resp>Transkribering och kodning validerad av</resp>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
-                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                 <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
-                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia leon</surname></persName>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
                 </authority>
                 <distributor>Högskolan i Borås</distributor>
@@ -86,7 +86,7 @@
                     <msIdentifier>
                         <country>Sverige</country>
                         <settlement>Göteborg</settlement>
-                        <repository>Kvinnsam </repository>
+                        <repository>KvinnSam – Nationellt bibliotek för genusforskning) </repository>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="Boken">
@@ -312,7 +312,7 @@ litet kanel              2 tsk bakpulver
             </div>
             
         <!-- Image 05_ImageDanskeKronprinsenskaka  -->
-            <pb n="Image DanskeKronprinsenskaka" facs="../collection/img/TIFF/05_ImageDanskeKronprinsenskaka.tiff" corresp="../collection/metadata/metadata05_ImageDanskeKronprinsenskaka.xml"/>
+            <pb n="Bild DanskeKronprinsenskaka" facs="../collection/img/TIFF/05_ImageDanskeKronprinsenskaka.tiff" corresp="../collection/metadata/metadata05_ImageDanskeKronprinsenskaka.xml"/>
             <div type="illustration-text">
                 <p rend="bold uppercase">DANSKE <lb/> <lb/> KRONPRINSENS <lb/><lb/>KAKA</p>
             </div>
@@ -359,7 +359,7 @@ litet kanel              2 tsk bakpulver
             
             
             <!-- Image 08_ImagePrinsessaIngridsTarta -->
-            <pb n="Image PrinsessaIngridsTarta" facs="../collection/img/TIFF/08_ImagePrinsessaIngridsTarta.tiff" corresp="../collection/metadata/metadata08_ImagePrinsessaIngridsTarta.xml"/>
+            <pb n="Bild PrinsessaIngridsTarta" facs="../collection/img/TIFF/08_ImagePrinsessaIngridsTarta.tiff" corresp="../collection/metadata/metadata08_ImagePrinsessaIngridsTarta.xml"/>
             <div type="illustration-text">
                 <p >Kungliga bröllop har gett <lb/> 
                     upphov till många läckra <lb/> 
@@ -372,7 +372,7 @@ litet kanel              2 tsk bakpulver
             </div>
            
             <!-- Image 09_ImageDrottningLovisaTarta -->
-            <pb n="Image DrottningLovisaTarta" facs="../collection/img/TIFF/09_ImageDrottningLovisaTarta.tiff" corresp="../collection/metadata/metadata09_ImageDrottningLovisaTarta.xml"/>
+            <pb n="Bild DrottningLovisaTarta" facs="../collection/img/TIFF/09_ImageDrottningLovisaTarta.tiff" corresp="../collection/metadata/metadata09_ImageDrottningLovisaTarta.xml"/>
             <div type="illustration-text">
                 <p ><lb/><lb/><lb/><lb/><lb/><lb/><lb/>
                     <lb/><lb/><lb/><lb/><lb/><lb/><lb/>
@@ -387,7 +387,7 @@ litet kanel              2 tsk bakpulver
             
             
             <!-- Image 10_Enkedrottningens Marenger -->
-            <pb n="Image EnkedrottningensMarenger" facs="../collection/img/TIFF/10_EnkedrottningensMarenger.tiff" corresp="../collection/metadata/metadata10_EnkedrottningensMarenger.xml"/>
+            <pb n="Bild EnkedrottningensMarenger" facs="../collection/img/TIFF/10_EnkedrottningensMarenger.tiff" corresp="../collection/metadata/metadata10_EnkedrottningensMarenger.xml"/>
             <div type="illustration-text">
                 <p rend="bold uppercase">ENKEDROTTNINGENS MARENGER</p>
             </div>
@@ -713,7 +713,7 @@ tjock grädde                  annan confityr
             <!-- page 58 -->
             
             
-            <pb n="58" facs="../collection/img/TIFF/19_Page58.tiff"/>
+            <pb n="58" facs="../collection/img/TIFF/19_Page58.tiff" corresp="../collection/metadata/metadata19_Page58.xml"/>
             <div type="recipe">
                 <p rend="bold uppercase">KRONPRINSESSAN ASTRIDS TÅRTA</p>
                 <ab xml:space="preserve">
