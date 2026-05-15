@@ -217,9 +217,10 @@
                
                 
                 <div rend="front-credits">
-                    <p rend="front-credit-label">RECEPTEN INSAMLADE AV</p>
+                    <!-- <p rend="front-credit-label">RECEPTEN INSAMLADE AV</p> -->
+                    <p rend="front-name">RECEPTEN INSAMLADE AV</p>
                     <p rend="front-name">ANDERS LUNDEBECK</p>
-                    <p rend="front-credit-label">OCH</p>
+                    <p rend="front-name">OCH</p>
                     <p rend="front-name">SIGYN REIMERS</p>
                 </div>
             </div>
@@ -533,7 +534,8 @@ Mördeg:                   Mandelmassa:
                     stenskiva.
                 </p>
                 <p rend="procedure">
-                    <hi rend="italic">Hopläggning av tårtan:</hi><lb/>
+                    <hi rend="italic">Hopläggning av tårtan:</hi><lb/></p>
+                <p rend="procedure">
                     Runt kanten ovanför den gräddade tårtbottnen<lb/>
                     breder ni ut den sparade degen på tårtringen. Bred<lb/>
                     det fasta, kalla äppelmoset ovanpå. En tredjedel<lb/>
@@ -558,7 +560,9 @@ Mördeg:                   Mandelmassa:
                     en upp- och nedvänd stekpanna under plåten. Tag<lb/>
                     ut tårtan och låt den kallna, när mandelmassan<lb/>
                     fått vacker färg.<lb/>
-                    Fyll rutorna på ytan med olikfärgat äppelgelé.
+                </p>
+                <p rend="procedure">
+                     Fyll rutorna på ytan med olikfärgat äppelgelé.
                 </p>
             </div>
             
@@ -577,7 +581,8 @@ Mördeg:                   Mandelmassa:
                     ten tills blandningen tjocknar. Blanda ner mjölet<lb/>
                     och det smälta smöret. Häll smeten i två runda<lb/>
                     smorda och mjölade kakformar. Grädda i medel-<lb/>
-                    varm ugn omkring 30 min.<lb/>
+                    varm ugn omkring 30 min.<lb/> </p>
+                <p rend="procedure"> 
                     Koka upp grädden med socker och riven choklad<lb/>
                     i en tjockbottnad kastrull. Ställ krämen att svalna<lb/>
                     1 timme. Skär de båda kakorna i två bottnar och<lb/>

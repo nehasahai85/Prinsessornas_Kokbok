@@ -53,8 +53,21 @@
     
     <!-- 2. CONSOLIDATED RENDERING ENGINE -->
     <!-- This handles most paragraphs and divs by turning @rend into a class -->
+    <!-- <xsl:template match="tei:p[@rend] | tei:div[@rend]" priority="1">
+        <div class="{@rend}">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template> -->
+    
+    
+    <!-- 2. CONSOLIDATED RENDERING ENGINE -->
+    <!-- This handles most paragraphs and divs by turning @rend into a class -->
     <xsl:template match="tei:p[@rend] | tei:div[@rend]" priority="1">
         <div class="{@rend}">
+            <!-- Only inject a space if it is a paragraph (tei:p), not a div -->
+            <xsl:if test="self::tei:p">
+                <xsl:text>&#160;</xsl:text>
+            </xsl:if>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -69,6 +82,14 @@
     <xsl:template match="tei:p[@rend = 'bold']" priority="2">
         <span class="recipe-title"><xsl:apply-templates/></span>
     </xsl:template>
+      
+    <xsl:template match="tei:hi[@rend='italic']">
+        <span class="italic">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    
     
     <!-- Ingredients -->
     <xsl:template match="tei:ab[@xml:space = 'preserve']" priority="2">
@@ -106,7 +127,11 @@
         <br/>
     </xsl:template>
     
-
+    <xsl:template match="tei:p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     
     <xsl:template match="tei:hr">
         <hr class="{@rend}"/>
