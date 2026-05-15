@@ -16,11 +16,11 @@
             <body class="body">
                 <nav class="nav">
                     <ul>
-                        <li><a href="index.html">om</a></li>
+                        <li><a href="index.html">Hem</a></li>
                         <li><a href="transkribering.html">transkribering</a></li>
                         <li><a href="text.html" class="active">text</a></li>
                         <li><a href="galleri.html">galleri</a></li>
-                        <li><a href="bladderlage.html">blädderläge</a></li>
+                        <li><a href="bladderlage.html">Läs-Läge</a></li>
                     </ul>
                 </nav>
                 
@@ -39,15 +39,15 @@
                                     <xsl:variable name="fileName" select="substring-before($fileNameWithExt, '.tiff')"/>
                                     
                                     <!-- 2. POINT TO ASSETS FOLDER -->
-                                    <img src="assets/img/{$fileName}.jpg" alt="Page {@n}"/>
-                                    <p>Page <xsl:value-of select="@n"/></p>
+                                    <img src="assets/img/{$fileName}.jpg" alt="Sida {@n}"/>
+                                    <p>Sida <xsl:value-of select="@n"/></p>
                                 </a>
                             </div>
                         </xsl:for-each>
                     </aside>
                     
                     <main class="right-content">
-                        <xsl:apply-templates select="//tei:body | //tei:front"/>
+                        <xsl:apply-templates select="//tei:body"/>
                     </main>
                 </div>
             </body>
@@ -71,7 +71,7 @@
     
     <!-- Match Page Breaks -->
     <xsl:template match="tei:pb">
-        <div id="page-{@n}" class="page-marker">FACSIMILE: PAGE <xsl:value-of select="@n"/></div>
+        <div id="page-{@n}" class="page-marker">FACSIMILE: Sida <xsl:value-of select="@n"/></div>
     </xsl:template>
     
     <!-- Match Figures -->

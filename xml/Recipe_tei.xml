@@ -10,13 +10,13 @@
                 <author><persName><forename>Sigyn </forename><surname>Reimers</surname></persName></author>
                 <principal>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
-                    <persName><forename>Diblik</forename><surname>Rabia </surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
                 </principal>
                 <respStmt>
                     <resp>Digitalisering och tillgängliggörande</resp>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
-                    <persName><forename>Diblik</forename><surname>Rabia</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
                 </respStmt>
                 <respStmt> 
@@ -34,10 +34,11 @@
                 <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                 </respStmt>
             </titleStmt>
+            
             <publicationStmt>
                 <authority>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
-                    <persName><forename>Diblik</forename><surname>Rabia leon</surname></persName>
+                    <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
                 </authority>
                 <distributor>Högskolan i Borås</distributor>
@@ -56,6 +57,12 @@
                     </licence>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note type="historical">
+                    <label>Om tidningen Husmodern</label>
+                    <p>Mellan 1917 och 1988 var Husmodern en av Sveriges mest framgångsrika veckotidningar. Tidningen grundades ursprungligen av hemvårdsexperten Thora Holm-Lundberg och journalisten Elsa Nyblom för att hjälpa kvinnor att hantera de hushållstekniska utmaningar som första världskriget förde med sig. År 1920 förvärvades tidningen av Åhlén och Åkerlund, vilket breddade dess innehåll till att omfatta allt från barnuppfostran till familjeekonomi. Under 1970-talet nådde tidningen sin kulmen med en upplaga på cirka 290 000 exemplar i veckan.</p>
+                </note>
+            </notesStmt>
             <sourceDesc>
                 <biblStruct type="Boken">
                     <monogr>
@@ -113,9 +120,13 @@
                                    </fileDesc>
                                  <encodingDesc>
                                      <projectDesc>
-                                         <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B11V6 vid Högskolan i Borås 
+                                         <!-- <p>Ett digitaliseringsprojekt i kursen "Digitaliserings för bevarande och tillgänglighet" C3IDB1 B11V6 vid Högskolan i Borås 
                                              som genomfördes under vårterminen 2026.
-                                             Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet. </p>
+                                             Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet. </p> -->
+                                         
+                                             <p>Detta digitaliseringsprojekt har genomförts inom ramen för kursen digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks- och informationsvetenskap vid högskolan i borås under våren 2026. Syftet med projektet är att utforska hur modern teknik kan användas för att bevara och tillgängliggöra ett unikt kvinnohistoriskt kulturarv genom digitala gränssnitt.</p>
+                                             <p>Det valda materialet utgörs av 1960 års utgåva av "Prinsessornas kakbok", som ursprungligen gavs ut som en bilaga till veckotidningen Husmodern. Recepten är insamlade av Anders Lundebeck och Sigyn Reimers. Materialet har valts ut i samråd med KvinnSam i Göteborg, där originalutgåvan finns bevarad. Publikationen har ett betydande kulturhistoriskt värde, då den belyser husmoderns roll i det svenska folkhemmet. </p>
+                                         <p>Materialet har fotograferats, transkriberats, TEI-kodats och publicerats av Neha Sharma, Diblik Rabia Leon och Anna Maria Hedin. Projektets samtliga filer finns tillgängliga via projektets <ref target="https://github.com/nehasahai85/Prinsessornas_Kokbok">Github</ref>.</p>
                                      </projectDesc>
                                      <editorialDecl>
                                      <normalization>
@@ -158,6 +169,14 @@
     </teiHeader>
     <text>
         <front>
+            <div type="acknowledgements">
+                <head>Tack</head>
+                <list>
+                    <item>KvinnSam, Sveriges nationella bibliotek för genusforskning vid Göteborgs universitet. Ett särskilt tack till Rachel Pierce.</item>
+                    <item>Wout Dillen, lektor vid Högskolan i Borås.</item>
+                    <item>Mikael Gunnarsson, lektor vid Högskolan i Borås.</item>
+                </list>
+            </div>
             <pb n="Cover" facs="../collection/img/TIFF/00_Cover.tiff"
                 corresp="../collection/metadata/metadata00_Cover.xml"/>
                         
