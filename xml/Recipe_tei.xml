@@ -29,7 +29,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Transkribering och kodning validerad av</resp>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                 <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                 </respStmt>
@@ -39,7 +39,7 @@
                 <authority>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname> Hedin</surname></persName>
                 </authority>
                 <distributor>Högskolan i Borås</distributor>
                 <address>
@@ -93,7 +93,7 @@
                     <msIdentifier>
                         <country>Sverige</country>
                         <settlement>Göteborg</settlement>
-                        <repository>KvinnSam – Nationellt bibliotek för genusforskning) </repository>
+                        <repository>KvinnSam – Nationellt bibliotek för genusforskning och universitetsgemensam forskningsinfrastruktur vid Göteborgs universitet.</repository>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="Boken">
