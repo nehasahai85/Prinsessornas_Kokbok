@@ -18,11 +18,11 @@
             <body class="body">
                 <nav class="nav">
                     <ul>
-                        <li><a href="index.html">Om</a></li>
+                        <li><a href="index.html">Hem</a></li>
                         <li><a href="transkribering.html">Transkribering</a></li>
                         <li><a href="text.html">Text</a></li>
                         <li><a href="galleri.html" class="active">Galleri</a></li>
-                        <li><a href="bladderlage.html">Blädderläge</a></li>
+                        <li><a href="bladderlage.html">Läs-Läge</a></li>
                     </ul>
                 </nav>
                 
