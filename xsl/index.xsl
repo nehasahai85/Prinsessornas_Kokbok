@@ -19,7 +19,7 @@
                         <li><a href="transkribering.html">Transkribering</a></li>
                         <li><a href="text.html">Text</a></li>
                         <li><a href="galleri.html">Galleri</a></li>
-                        <li><a href="bladderlage.html">Läs-Läge</a></li>
+                        <li><a href="bladderlage.html">Läsläge</a></li>
                     </ul>
                 </nav>
                 <main class="content" style="text-align:left; max-width: 800px; margin: 40px auto; line-height: 1.6;">
@@ -66,10 +66,26 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="tei:titleStmt">
+ <!--  <xsl:template match="tei:titleStmt">
         <h3>Projektansvariga</h3>
         <ul>
             <xsl:for-each select="tei:respStmt">
+                <li>
+                    <strong><xsl:value-of select="tei:resp"/>:</strong> 
+                    <xsl:for-each select="tei:persName">
+                        <xsl:value-of select="tei:forename"/><xsl:text> </xsl:text><xsl:value-of select="tei:surname"/>
+                        <xsl:if test="position() != last()">, </xsl:if>
+                    </xsl:for-each>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:template> -->
+    
+    <xsl:template match="tei:titleStmt">
+        <h3>Digitalisering och tillgängliggörande</h3>
+        <ul>
+            <!-- Change: We added the ID filter right here -->
+            <xsl:for-each select="tei:respStmt[@xml:id='digitalisering']">
                 <li>
                     <strong><xsl:value-of select="tei:resp"/>:</strong> 
                     <xsl:for-each select="tei:persName">

@@ -53,15 +53,6 @@
     
     <!-- 2. CONSOLIDATED RENDERING ENGINE -->
     <!-- This handles most paragraphs and divs by turning @rend into a class -->
-    <!-- <xsl:template match="tei:p[@rend] | tei:div[@rend]" priority="1">
-        <div class="{@rend}">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template> -->
-    
-    
-    <!-- 2. CONSOLIDATED RENDERING ENGINE -->
-    <!-- This handles most paragraphs and divs by turning @rend into a class -->
     <xsl:template match="tei:p[@rend] | tei:div[@rend]" priority="1">
         <div class="{@rend}">
             <!-- Only inject a space if it is a paragraph (tei:p), not a div -->

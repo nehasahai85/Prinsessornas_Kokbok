@@ -13,7 +13,7 @@
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                     <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
                 </principal>
-                <respStmt>
+                <respStmt xml:id="digitalisering">
                     <resp>Digitalisering och tillgängliggörande</resp>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
