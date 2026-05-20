@@ -11,13 +11,13 @@
                 <principal>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                 </principal>
                 <respStmt xml:id="digitalisering">
                     <resp>Digitalisering och tillgängliggörande</resp>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                 </respStmt>
                 <respStmt> 
                     <resp>Transkriberad av</resp>
@@ -29,7 +29,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Transkribering och kodning validerad av</resp>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
                 <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                 </respStmt>
@@ -39,7 +39,7 @@
                 <authority>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>
                     <persName><forename>Diblik</forename><surname>Rabia Leon</surname></persName>
-                    <persName><forename>Anna</forename><surname>Maria Hedin</surname></persName>
+                    <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                 </authority>
                 <distributor>Högskolan i Borås</distributor>
                 <address>
@@ -54,6 +54,7 @@
                         <p>Originaltexten gavs ut av Husmodern och recepten samlades in av 
                             Anders Lundebeck och Sigyn Reimers. Denna digitala version har skapats 
                             för bevarande- och forskningsändamål.</p>
+                        <p><hi rend="bold">Ansvarsfriskrivning:</hi> Detta projekt är endast avsett för utbildningsändamål. Upphovsrättsinnehavarna har rätt att begära dess borttagning.</p>
                     </licence>
                 </availability>
             </publicationStmt>
@@ -124,9 +125,9 @@
                                              som genomfördes under vårterminen 2026.
                                              Syftet med projektet är att digitalisera kulturarvsmaterial för bevarande och tillgänglighet. </p> -->
                                          
-                                             <p>Detta digitaliseringsprojekt har genomförts inom ramen för kursen digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks- och informationsvetenskap vid högskolan i borås under våren 2026. Syftet med projektet är att utforska hur modern teknik kan användas för att bevara och tillgängliggöra ett unikt kvinnohistoriskt kulturarv genom digitala gränssnitt.</p>
-                                             <p>Det valda materialet utgörs av 1960 års utgåva av "Prinsessornas kakbok", som ursprungligen gavs ut som en bilaga till veckotidningen Husmodern. Recepten är insamlade av Anders Lundebeck och Sigyn Reimers. Materialet har valts ut i samråd med KvinnSam i Göteborg, där originalutgåvan finns bevarad. Publikationen har ett betydande kulturhistoriskt värde, då den belyser husmoderns roll i det svenska folkhemmet. </p>
-                                         <p>Materialet har fotograferats, transkriberats, TEI-kodats och publicerats av Neha Sharma, Diblik Rabia Leon och Anna Maria Hedin. Projektets samtliga filer finns tillgängliga via projektets <ref target="https://github.com/nehasahai85/Prinsessornas_Kokbok">Github</ref>.</p>
+                                             <p>Detta digitaliseringsprojekt har genomförts under våren 2026 som en del av kursen Digitalisering för bevarande och tillgänglighet inom Masterprogrammet i Biblioteks- och informationsvetenskap vid Högskolan i Borås. Syftet med projektet är att utforska hur den moderna tekniken kan användas för att bevara och tillgängliggöra ett unikt kvinnohistoriskt kulturarv genom digitala gränssnitt.</p>
+                                         <p>Det valda materialet utgörs av 1960 års utgåva av <hi rend="bold">Prinsessornas kakbok </hi>, som ursprungligen publicerats av tidningen <hi rend="bold">Husmodern </hi>. Recepten är insamlade av Anders Lundebeck och Sigyn Reimers. Materialet har valts ut i samråd med KvinnSam i Göteborg, som ansvarar för den originalutgåvan. Publikationen har ett betydande kulturhistoriskt värde, då den belyser husmoderns roll och de förväntningar som ställs på henne i det svenska folkhemmet</p> 
+                                         <p>Materialet har fotograferats, transkriberats, TEI-kodats och publicerats av Neha Sharma, Diblik Rabia Leon och Anna Maria Hedin. Projektets samtliga filer finns tillgängliga via projektets sida på <ref target="https://github.com/nehasahai85/Prinsessornas_Kokbok">Github</ref>.</p>
                                      </projectDesc>
                                      <editorialDecl>
                                      <normalization>

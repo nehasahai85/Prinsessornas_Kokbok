@@ -22,7 +22,7 @@
                         <li><a href="transkribering.html">Transkribering</a></li>
                         <li><a href="text.html">Text</a></li>
                         <li><a href="galleri.html" class="active">Galleri</a></li>
-                        <li><a href="bladderlage.html">Läs-Läge</a></li>
+                        <li><a href="bladderlage.html">Läsläge</a></li>
                     </ul>
                 </nav>
                 

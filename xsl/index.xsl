@@ -99,13 +99,22 @@
     
     <xsl:template match="tei:publicationStmt">
         <h3>Licens och Tillgänglighet</h3>
-        <p><xsl:value-of select="tei:availability/tei:licence/tei:p[1]"/></p>
+               
+        <!-- Loop through every paragraph inside the licence -->
+        <xsl:for-each select="tei:availability/tei:licence/tei:p">
+            <p><xsl:apply-templates/></p>
+        </xsl:for-each>
+        
+         
         <p><em>Distributör: <xsl:value-of select="tei:distributor"/></em></p>
     </xsl:template>
     <xsl:template match="tei:ref">
         <a href="{@target}" target="_blank" style="color: #0066cc; text-decoration: underline;">
             <xsl:apply-templates/>
         </a>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend='bold']">
+        <strong><xsl:apply-templates/></strong>
     </xsl:template>
     
 </xsl:stylesheet>
