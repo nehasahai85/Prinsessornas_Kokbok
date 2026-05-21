@@ -20,8 +20,13 @@
                     <persName><forename>Anna Maria</forename><surname>Hedin</surname></persName>
                 </respStmt>
                 <respStmt> 
-                    <resp>Transkriberad av</resp>
+                    <resp>OCR och Transkriberad av</resp>
                     <persName><forename>Neha</forename><surname>Sharma</surname></persName>            
+                </respStmt>
+                <respStmt> 
+                    <resp>Korrekturläst av</resp>
+                    <persName><forename>Anna Maria</forename><surname>Hedin </surname></persName> 
+                    <persName><forename>Diblik</forename><surname>Rabia Leon  </surname></persName>  
                 </respStmt>
                 <respStmt> 
                     <resp>Kodad av</resp>
@@ -94,7 +99,7 @@
                     <msIdentifier>
                         <country>Sverige</country>
                         <settlement>Göteborg</settlement>
-                        <repository>KvinnSam – Nationellt bibliotek för genusforskning) </repository>
+                        <repository>KvinnSam – Nationellt bibliotek för genusforskning och universitetsgemensam forskningsinfrastruktur vid Göteborgs universitet. </repository>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="Boken">
