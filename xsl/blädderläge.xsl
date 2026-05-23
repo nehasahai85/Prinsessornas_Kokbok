@@ -65,7 +65,7 @@
                 
                 <footer>
                     <strong>Prinsessornas Kakbok</strong><br/>
-                    Utgiven av: Svensk Läraretidnings Förlag[cite: 1]
+                    Utgiven av: Husmodern
                 </footer>
                 
                 <script>
