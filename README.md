@@ -1,0 +1,5 @@
+Detta digitaliseringsprojekt har genomförts under våren 2026 som en del av kursen Digitalisering för bevarande och tillgänglighet inom Masterprogrammet i Biblioteks- och informationsvetenskap vid Högskolan i Borås. Syftet med projektet är att utforska hur den moderna tekniken kan användas för att bevara och tillgängliggöra ett unikt kvinnohistoriskt kulturarv genom digitala gränssnitt.
+
+Det valda materialet utgörs av 1960 års utgåva av Prinsessornas kakbok , som ursprungligen publicerats av tidningen Husmodern . Recepten är insamlade av Anders Lundebeck och Sigyn Reimers. Materialet har valts ut i samråd med KvinnSam i Göteborg, som ansvarar för den originalutgåvan. Publikationen har ett betydande kulturhistoriskt värde, då den belyser husmoderns roll och de förväntningar som ställs på henne i det svenska folkhemmet
+
+Materialet har fotograferats, transkriberats, TEI-kodats och publicerats av Neha Sharma, Diblik Rabia Leon och Anna Maria Hedin. Projektets samtliga filer finns tillgängliga via projektets sida på Github.
